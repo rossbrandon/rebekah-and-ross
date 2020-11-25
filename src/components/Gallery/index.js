@@ -1,15 +1,21 @@
 import React, {Component} from "react"
 import ReactFancyBox from "react-fancybox"
-import "react-fancybox/lib/fancybox.css"
 import SectionTitle from "../SectionTitle"
+import "react-fancybox/lib/fancybox.css"
 import "./style.css"
 
-import gallery1 from "../../images/gallery/gallery-1.jpg"
-import gallery2 from "../../images/gallery/gallery-2.jpg"
-import gallery3 from "../../images/gallery/gallery-3.jpg"
-import gallery4 from "../../images/gallery/img-4.jpg"
-import gallery5 from "../../images/gallery/img-5.jpg"
-import gallery6 from "../../images/gallery/img-6.jpg"
+import gallery1 from "../../images/gallery/zachs-wedding.jpg"
+import gallery2 from "../../images/gallery/williams-wedding.jpg"
+import gallery3 from "../../images/gallery/outside-hh.jpg"
+import gallery4 from "../../images/gallery/cayman-islands.jpg"
+import gallery5 from "../../images/gallery/chicago.jpg"
+import gallery6 from "../../images/gallery/trail-of-lights.jpg"
+import gallery7 from "../../images/gallery/champagne.jpg"
+import gallery8 from "../../images/gallery/graces-wedding.jpg"
+import gallery9 from "../../images/gallery/deborahs.jpg"
+import gallery10 from "../../images/gallery/acl.jpg"
+import gallery11 from "../../images/gallery/big-cedar.jpg"
+import gallery12 from "../../images/gallery/photo-van.jpg"
 
 class Gallery extends Component {
     render() {
@@ -63,6 +69,56 @@ class Gallery extends Component {
                                 <ReactFancyBox
                                     thumbnail={gallery6}
                                     image={gallery6}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div className="gallery-img">
+                                <ReactFancyBox
+                                    thumbnail={gallery7}
+                                    image={gallery7}
+                                />
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div className="gallery-img">
+                                <ReactFancyBox
+                                    thumbnail={gallery8}
+                                    image={gallery8}
+                                />
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div className="gallery-img">
+                                <ReactFancyBox
+                                    thumbnail={gallery9}
+                                    image={gallery9}
+                                />
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div className="gallery-img">
+                                <ReactFancyBox
+                                    thumbnail={gallery10}
+                                    image={gallery10}
+                                />
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div className="gallery-img">
+                                <ReactFancyBox
+                                    thumbnail={gallery11}
+                                    image={gallery11}
+                                />
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div className="gallery-img">
+                                <ReactFancyBox
+                                    thumbnail={gallery12}
+                                    image={gallery12}
                                 />
                             </div>
                         </div>

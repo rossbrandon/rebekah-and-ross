@@ -20,7 +20,7 @@ const Welcome = () => {
                                 click the Events button below for details!
                             </p>
                             <div className="btn">
-                                <AnchorLink href="#event">Events</AnchorLink>
+                                <AnchorLink href="#events">Events</AnchorLink>
                             </div>
                             )
                         </div>

@@ -7,7 +7,7 @@ import "./style.css"
 const Story = () => {
     return (
         <div id="story" className="story-area section-padding">
-            <SectionTitle section={"Our Love Story"} />
+            <SectionTitle section={"Our Story"} />
             <div className="container">
                 <div className="story-wrap">
                     <div className="row">

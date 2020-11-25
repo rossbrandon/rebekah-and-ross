@@ -3,7 +3,8 @@ welcome-area
 =================================*/
 
 .welcome-area {
-    background: url(../../images/slider/engagement.jpg) no-repeat center center fixed;
+    background: url(../../images/slider/engagement.jpg) no-repeat center center
+        fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -19,8 +20,8 @@ welcome-area
     left: 0;
     width: 100%;
     height: 100%;
-    background:rgba(0,0,0,.8);
-    opacity: .9;
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0.9;
 }
 
 .welcome-content {
@@ -47,7 +48,7 @@ welcome-area
     color: #8ba1aa;
     padding: 10px 38px;
     font-size: 18px;
-    transition: all .3s;
+    transition: all 0.3s;
     font-weight: 600;
     border-radius: 40px;
 }
@@ -57,7 +58,7 @@ welcome-area
     color: #fff;
 }
 
-@media (max-width:767px){
+@media (max-width: 767px) {
     .welcome-content {
         padding: 60px 0 30px;
     }

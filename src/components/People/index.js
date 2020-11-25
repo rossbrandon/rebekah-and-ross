@@ -1,7 +1,7 @@
 import React from "react"
 import SectionTitle from "../SectionTitle"
-import bride1 from "../../images/groomsmen-bridesmaid/1.jpg"
-import bride2 from "../../images/groomsmen-bridesmaid/2.jpg"
+import bride1 from "../../images/people/1.jpg"
+import groom1 from "../../images/people/carter.jpg"
 
 import "./style.css"
 
@@ -28,7 +28,7 @@ const People = () => {
                                 <div className="col-lg-4 col-md-6 col-sm-6 grid mx-auto">
                                     <div className="groomsmen-bridesmaid-wrap groomsmen-bridesmaid-wrap-2 mx-auto">
                                         <div className="groomsmen-bridesmaid-img">
-                                            <img src={bride2} alt="bride" />
+                                            <img src={groom1} alt="bride" />
                                         </div>
                                         <div className="groomsmen-bridesmaid-content">
                                             <h4>Carter Brandon</h4>

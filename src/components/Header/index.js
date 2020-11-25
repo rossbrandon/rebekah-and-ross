@@ -47,7 +47,7 @@ const Header = () => {
                                                 </AnchorLink>
                                             </li>
                                             <li>
-                                                <AnchorLink href="#event">
+                                                <AnchorLink href="#events">
                                                     Events
                                                 </AnchorLink>
                                             </li>

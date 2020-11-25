@@ -1,5 +1,4 @@
-
-.header ul{
+.header ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
@@ -15,27 +14,27 @@
     width: 100%;
     z-index: 99;
 }
-.header ul li a{
-    color:#fff;
+.header ul li a {
+    color: #fff;
     text-decoration: none;
 }
-.header ul li a:hover{
-    color:#b6e9ff;
+.header ul li a:hover {
+    color: #b6e9ff;
 }
-.logo{
+.logo {
     margin-top: 20px;
 }
 
-.logo h2 a{
+.logo h2 a {
     color: #fff;
 }
-.header-menu ul li{
+.header-menu ul li {
     position: relative;
 }
 
 .header-menu .submenu {
     position: absolute;
-    left:18px;
+    left: 18px;
     top: 140%;
     z-index: 999;
     width: 185px;
@@ -50,21 +49,21 @@
     visibility: hidden;
 }
 
-.header-menu ul>li:hover>.submenu {
+.header-menu ul > li:hover > .submenu {
     top: 100%;
     opacity: 1;
     visibility: visible;
 }
-.header-menu .submenu{
+.header-menu .submenu {
     display: unset;
 }
 
-.header-menu .submenu li{
+.header-menu .submenu li {
     padding: 0px;
 }
-.header-menu .submenu li a{
+.header-menu .submenu li a {
     padding-left: 15px;
     display: block;
-    color:#444;
+    color: #444;
     padding-bottom: 10px;
 }

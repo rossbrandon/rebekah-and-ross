@@ -1,7 +1,7 @@
 ul.smothscroll {
     position: fixed;
     bottom: 0px;
-    right:30px;
+    right: 30px;
     list-style: none;
 }
 ul.smothscroll a {

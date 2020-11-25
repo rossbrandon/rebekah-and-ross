@@ -14,7 +14,7 @@ class SimpleSlider extends Component {
             speed: 1200,
             slidesToShow: 1,
             slidesToScroll: 1,
-            autoplay: true,
+            autoplay: false,
             autoplaySpeed: 2500,
             fade: true,
         }

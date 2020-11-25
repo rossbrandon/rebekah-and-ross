@@ -1,20 +1,32 @@
-.Gallery-section{
-    background: rgba(178,201,211,.1);
+.Gallery-section {
+    background: rgba(178, 201, 211, 0.1);
 }
 .gallery-img {
     cursor: pointer;
     margin-bottom: 30px;
     overflow: hidden;
 }
-.thumbnail{
+.thumbnail {
     transform: scale(1);
     overflow: hidden;
-    transition: all .3s;
+    transition: all 0.3s;
 }
-.gallery-img:hover .thumbnail{
+.gallery-img:hover .thumbnail {
     transform: scale(1.1);
 }
 
-.image-box img{
+.image-box img {
     object-fit: cover;
+}
+
+.react-fancybox {
+    height: 450px;
+    overflow: hidden;
+}
+
+@media (max-width: 991px) {
+    .react-fancybox {
+        height: 300px;
+        overflow: hidden;
+    }
 }

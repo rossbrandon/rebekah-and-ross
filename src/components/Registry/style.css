@@ -1,17 +1,21 @@
 .gift-area .slick-slide img {
     width: unset;
 }
-.gift-area{
+
+.gift-area {
     padding: 80px 0;
 }
+
 .gift-area .slick-slider {
     padding-left: 100px;
 }
+
 .registry-icon {
     /* height: 200px; */
     width: 200px;
 }
-@media(max-width:991px){
+
+@media (max-width: 991px) {
     .gift-area .slick-slider {
         padding-left: 0px;
     }
