@@ -1,8 +1,8 @@
 {
-  "name": "rebekahandross.com",
+  "name": "rebekahandross.github.io",
   "version": "0.1.0",
   "description": "Rebekah Pool and Ross Brandon's Wedding",
-  "homepage": "http://rebekahandross.github.io",
+  "homepage": "https://rebekahandross.github.io",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
