@@ -1,6 +1,7 @@
 import React from "react"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import StickyHeader from "react-sticky-header"
+import {NAME_SHORT} from "../../util/constants"
 
 import "react-sticky-header/styles.css"
 import "./style.css"
@@ -17,7 +18,7 @@ const Header = () => {
                                     <div className="logo">
                                         <h2>
                                             <AnchorLink href="#home">
-                                                Rebekah & Ross
+                                                {NAME_SHORT}
                                             </AnchorLink>
                                         </h2>
                                     </div>

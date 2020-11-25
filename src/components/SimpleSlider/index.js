@@ -1,6 +1,7 @@
 import React, {Component} from "react"
 import Slider from "react-slick"
 import {Animated} from "react-animated-css"
+import {WEDDING_DATE} from "../../util/constants"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import "./style.css"
@@ -29,7 +30,7 @@ class SimpleSlider extends Component {
                                 <h2>Save Our Date</h2>
                             </div>
                             <div className="slide-text">
-                                <p>22 March 2022</p>
+                                <p>{WEDDING_DATE}</p>
                             </div>
                             <Animated>
                                 <div className="animated-circle"></div>
@@ -48,7 +49,7 @@ class SimpleSlider extends Component {
                                     <h2>Save Our Date</h2>
                                 </div>
                                 <div className="slide-text">
-                                    <p>22 March 2022</p>
+                                    <p>{WEDDING_DATE}</p>
                                 </div>
                                 <Animated>
                                     <div className="animated-circle"></div>

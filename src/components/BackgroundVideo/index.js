@@ -1,6 +1,7 @@
 import React from "react"
 import {Animated} from "react-animated-css"
 import classes from "../../css/BackgroundVideo.module.css"
+import {WEDDING_DATE_SHORT} from "../../util/constants"
 
 const BackgroundVideo = () => {
     const videoSource =
@@ -28,7 +29,7 @@ const BackgroundVideo = () => {
                                 <h2>Save Our Date</h2>
                             </div>
                             <div className="slide-text">
-                                <p>22 March 2021</p>
+                                <p>{WEDDING_DATE_SHORT}</p>
                             </div>
                             <Animated>
                                 <div className="animated-circle"></div>

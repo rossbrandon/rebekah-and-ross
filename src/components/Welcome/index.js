@@ -1,5 +1,5 @@
 import React from "react"
-import {Link} from "react-router-dom"
+import AnchorLink from "react-anchor-link-smooth-scroll"
 import "./style.css"
 
 const Welcome = () => {
@@ -11,18 +11,18 @@ const Welcome = () => {
                         <div className="welcome-content">
                             <h2>Welcome to our big day</h2>
                             <p>
-                                It is a long established fact that a reader will
-                                be distracted by the readable content of a page
-                                when looking at its layout. The point of using
-                                Lorem Ipsum is that it has a more-or less normal
-                                distribution of letters
+                                Due to COVID-19 precautions, we will
+                                unfortunately not be inviting guests to our
+                                wedding ceremony.
+                                <br /> <br />
+                                However, we will be hosting a party for everyone
+                                to join in on our celebration in 2022! Please
+                                click the Events button below for details!
                             </p>
                             <div className="btn">
-                                <Link to="/home">RSVP</Link>
+                                <AnchorLink href="#event">Events</AnchorLink>
                             </div>
-                            <div className="btn">
-                                <Link to="/home">Location</Link>
-                            </div>
+                            )
                         </div>
                     </div>
                 </div>

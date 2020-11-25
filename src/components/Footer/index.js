@@ -1,4 +1,5 @@
 import React from "react"
+import {NAME_SHORT} from "../../util/constants"
 import "./style.css"
 
 const Footer = () => {
@@ -7,7 +8,7 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="text">
-                        <h2>Rebekah & Ross</h2>
+                        <h2>{NAME_SHORT}</h2>
                         <p>We can't wait to celebrate with you in 2022!</p>
                     </div>
                 </div>

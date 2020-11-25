@@ -1,9 +1,8 @@
 import React from "react"
-import {Link} from "react-router-dom"
 import Sectiontitle from "../SectionTitle"
-import strory1 from "../../images/events/img-1.jpg"
-import strory2 from "../../images/events/img-2.jpg"
-import strory3 from "../../images/events/img-3.jpg"
+import {WEDDING_DATE_FULL, PARTY_DATE_FULL} from "../../util/constants"
+import event1 from "../../images/events/anthony-chapel.jpg"
+import event2 from "../../images/events/springdale-station.jpg"
 
 import "./style.css"
 
@@ -21,44 +20,37 @@ const Location = () => {
                                         <div className="row">
                                             <div className="col-lg-5 col-md-12 col-12">
                                                 <div className="event-img">
-                                                    <img src={strory1} alt="" />
+                                                    <img src={event1} alt="" />
                                                 </div>
                                             </div>
                                             <div className="col-lg-7 col-md-12 col-12">
                                                 <div className="event-text">
                                                     <h3>Wedding Ceremony</h3>
                                                     <span>
-                                                        Sunday, 25 July 18, 9.00
-                                                        AM-5.00 PM
+                                                        {WEDDING_DATE_FULL}
                                                     </span>
                                                     <span>
-                                                        256 Apay Road,Califonia
-                                                        Bong, London
+                                                        Anthony Chapel Gargan
+                                                        Woodland Gardens Hot
+                                                        Springs National Park,
+                                                        AR
                                                     </span>
                                                     <p>
-                                                        It is a long established
-                                                        fact that a reader will
-                                                        be distracted by the
-                                                        readable content of a
-                                                        page when looking at its
-                                                        layout. The point of
-                                                        using Lorem Ipsum is
-                                                        that it has a
-                                                        more-or-less normal It
-                                                        is a long established
-                                                        fact that a reader will
-                                                        be distracted by the
-                                                        readable content of a
-                                                        page when looking at its
-                                                        layout. The point of
-                                                        using Lorem Ipsum is
-                                                        that it has a
-                                                        more-or-less normal{" "}
+                                                        Small, intimate,
+                                                        immediate family only
+                                                        ceremony at the
+                                                        beautiful Anthony Chapel
+                                                        in the Garvan Woodland
+                                                        Gardens.{" "}
                                                     </p>
                                                     <div className="btn">
-                                                        <Link to="/">
+                                                        <a
+                                                            href="https://www.google.com/maps/place/Anthony+Chapel/@34.4355043,-93.0437198,15z/data=!4m5!3m4!1s0x0:0x1357362e97b30e75!8m2!3d34.4355043!4d-93.0437198?hl=en"
+                                                            target="_blank"
+                                                            rel="noopener noreferrer"
+                                                        >
                                                             Location
-                                                        </Link>
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -68,92 +60,34 @@ const Location = () => {
                                         <div className="row">
                                             <div className="col-lg-7 col-md-12 col-12">
                                                 <div className="event-text event-text-2">
-                                                    <h3>Wedding Party</h3>
+                                                    <h3>Wedding Celebration</h3>
                                                     <span>
-                                                        Sunday, 25 July 18, 9.00
-                                                        AM-5.00 PM
+                                                        {PARTY_DATE_FULL}
                                                     </span>
                                                     <span>
-                                                        256 Apay Road,Califonia
-                                                        Bong, London
+                                                        Springdate Station 979
+                                                        Springdale Rd Suite #160
+                                                        Austin, TX
                                                     </span>
                                                     <p>
-                                                        It is a long established
-                                                        fact that a reader will
-                                                        be distracted by the
-                                                        readable content of a
-                                                        page when looking at its
-                                                        layout. The point of
-                                                        using Lorem Ipsum is
-                                                        that it has a
-                                                        more-or-less normal It
-                                                        is a long established
-                                                        fact that a reader will
-                                                        be distracted by the
-                                                        readable content of a
-                                                        page when looking at its
-                                                        layout. The point of
-                                                        using Lorem Ipsum is
-                                                        that it has a
-                                                        more-or-less normal{" "}
+                                                        Please join us in 2022
+                                                        for a (hopefully) more
+                                                        normal celebration!{" "}
                                                     </p>
                                                     <div className="btn">
-                                                        <Link to="/">
+                                                        <a
+                                                            href="https://goo.gl/maps/BUi7TBi9NfD2"
+                                                            target="_blank"
+                                                            rel="noopener noreferrer"
+                                                        >
                                                             Location
-                                                        </Link>
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="col-lg-5 col-md-12 col-12">
                                                 <div className="event-img">
-                                                    <img src={strory2} alt="" />
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="event-wrap">
-                                        <div className="row">
-                                            <div className="col-lg-5 col-md-12 col-12">
-                                                <div className="event-img">
-                                                    <img src={strory3} alt="" />
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-7 col-md-12 col-12">
-                                                <div className="event-text">
-                                                    <h3>Wedding Dinner</h3>
-                                                    <span>
-                                                        Sunday, 25 July 18, 9.00
-                                                        AM-5.00 PM
-                                                    </span>
-                                                    <span>
-                                                        256 Apay Road,Califonia
-                                                        Bong, London
-                                                    </span>
-                                                    <p>
-                                                        It is a long established
-                                                        fact that a reader will
-                                                        be distracted by the
-                                                        readable content of a
-                                                        page when looking at its
-                                                        layout. The point of
-                                                        using Lorem Ipsum is
-                                                        that it has a
-                                                        more-or-less normal It
-                                                        is a long established
-                                                        fact that a reader will
-                                                        be distracted by the
-                                                        readable content of a
-                                                        page when looking at its
-                                                        layout. The point of
-                                                        using Lorem Ipsum is
-                                                        that it has a
-                                                        more-or-less normal{" "}
-                                                    </p>
-                                                    <div className="btn">
-                                                        <Link to="/">
-                                                            Location
-                                                        </Link>
-                                                    </div>
+                                                    <img src={event2} alt="" />
                                                 </div>
                                             </div>
                                         </div>
