@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4376dcec8d96e54b78529d804c410869",
+    "revision": "fb26c1660eb1019a7bced5c25c304e54",
     "url": "/index.html"
   },
   {
-    "revision": "7e83c2c7619f89323635",
+    "revision": "dd23d237692bcee01105",
     "url": "/static/css/2.467c85df.chunk.css"
   },
   {
-    "revision": "7941497b696fafc631c5",
-    "url": "/static/css/main.70cb6f62.chunk.css"
+    "revision": "f71013fe563e8acd5bb5",
+    "url": "/static/css/main.6fbee517.chunk.css"
   },
   {
-    "revision": "7e83c2c7619f89323635",
-    "url": "/static/js/2.a8950abe.chunk.js"
+    "revision": "dd23d237692bcee01105",
+    "url": "/static/js/2.3fdfb28a.chunk.js"
   },
   {
-    "revision": "7941497b696fafc631c5",
-    "url": "/static/js/main.dc739a4e.chunk.js"
+    "revision": "f71013fe563e8acd5bb5",
+    "url": "/static/js/main.c959c5c6.chunk.js"
   },
   {
     "revision": "f2ddf23a074ddd812f43",
@@ -62,6 +62,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  {
+    "revision": "e00dc59898456d8f18d41a9b168c53a3",
+    "url": "/static/media/gallery-1.e00dc598.jpg"
+  },
+  {
+    "revision": "33e72b1ad4211a81b769a9493eb49a0f",
+    "url": "/static/media/gallery-2.33e72b1a.jpg"
+  },
+  {
+    "revision": "327ddb5f6e25df7d2610f72d444238b4",
+    "url": "/static/media/gallery-3.327ddb5f.jpg"
+  },
+  {
+    "revision": "47f87d8609ab12929635798ffc45f6f9",
+    "url": "/static/media/logo-bedbathandbeyond.47f87d86.png"
+  },
+  {
+    "revision": "9ddaea91ae3866f68b923bb64cc7a4ea",
+    "url": "/static/media/logo-crateandbarrel.9ddaea91.png"
   },
   {
     "revision": "964d0e3ef727e60c0bb0991fa9ceda0c",
