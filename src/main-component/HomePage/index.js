@@ -4,7 +4,7 @@ import SimpleSlider from "../../components/SimpleSlider"
 import Story from "../../components/Story"
 import Welcome from "../../components/Welcome"
 import People from "../../components/People"
-import Location from "../../components/Location"
+import Events from "../../components/Events"
 import Gallery from "../../components/Gallery"
 import Registry from "../../components/Registry"
 import Header from "../../components/Header"
@@ -22,7 +22,7 @@ const Homepage = () => {
             <Welcome />
             <Story />
             <People />
-            <Location />
+            <Events />
             <Gallery />
             <Registry />
         </div>

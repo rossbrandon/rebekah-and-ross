@@ -25,7 +25,11 @@
 }
 
 .item1{
-    background: url(../../images/slider/1.jpg);
+    background: url(../../images/slider/1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     height: 950px;
     display: flex!important;
     justify-content: center;
@@ -34,7 +38,11 @@
 }
 
 .item2{
-    background: url(../../images/slider/2.jpg);
+  background: url(../../images/slider/2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     height: 950px;
      display: flex!important;
     justify-content: center;

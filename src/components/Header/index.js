@@ -51,6 +51,16 @@ const Header = () => {
                                                     Events
                                                 </AnchorLink>
                                             </li>
+                                            <li>
+                                                <AnchorLink href="#gallery">
+                                                    Gallery
+                                                </AnchorLink>
+                                            </li>
+                                            <li>
+                                                <AnchorLink href="#registry">
+                                                    Registry
+                                                </AnchorLink>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>

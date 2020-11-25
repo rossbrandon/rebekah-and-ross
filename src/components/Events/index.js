@@ -1,15 +1,15 @@
 import React from "react"
-import Sectiontitle from "../SectionTitle"
+import SectionTitle from "../SectionTitle"
 import {WEDDING_DATE_FULL, PARTY_DATE_FULL} from "../../util/constants"
 import event1 from "../../images/events/anthony-chapel.jpg"
 import event2 from "../../images/events/springdale-station.jpg"
 
 import "./style.css"
 
-const Location = () => {
+const Events = () => {
     return (
-        <div id="event" className="event-section section-padding">
-            <Sectiontitle section={"When & Where"} />
+        <div id="events" className="event-section section-padding">
+            <SectionTitle section={"When & Where"} />
             <div className="container">
                 <div className="row">
                     <div className="col-12">
@@ -102,4 +102,4 @@ const Location = () => {
     )
 }
 
-export default Location
+export default Events

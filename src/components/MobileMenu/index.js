@@ -60,7 +60,7 @@ class MobileMenu extends Component {
                         </li>
                         <li>
                             <AnchorLink
-                                href="#event"
+                                href="#events"
                                 onClick={this.menuHandler}
                             >
                                 Events
@@ -72,6 +72,14 @@ class MobileMenu extends Component {
                                 onClick={this.menuHandler}
                             >
                                 Gallery
+                            </AnchorLink>
+                        </li>
+                        <li>
+                            <AnchorLink
+                                href="#registry"
+                                onClick={this.menuHandler}
+                            >
+                                Registry
                             </AnchorLink>
                         </li>
                     </ul>

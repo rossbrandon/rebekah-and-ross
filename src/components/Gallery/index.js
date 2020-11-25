@@ -1,68 +1,68 @@
 import React, {Component} from "react"
 import ReactFancyBox from "react-fancybox"
 import "react-fancybox/lib/fancybox.css"
-import Sectiontitle from "../SectionTitle"
+import SectionTitle from "../SectionTitle"
 import "./style.css"
 
-import galimg1 from "../../images/gal/img-1.jpg"
-import galimg2 from "../../images/gal/img-2.jpg"
-import galimg3 from "../../images/gal/img-3.jpg"
-import galimg4 from "../../images/gal/img-4.jpg"
-import galimg5 from "../../images/gal/img-5.jpg"
-import galimg6 from "../../images/gal/img-6.jpg"
+import gallery1 from "../../images/gallery/gallery-1.jpg"
+import gallery2 from "../../images/gallery/gallery-2.jpg"
+import gallery3 from "../../images/gallery/gallery-3.jpg"
+import gallery4 from "../../images/gallery/img-4.jpg"
+import gallery5 from "../../images/gallery/img-5.jpg"
+import gallery6 from "../../images/gallery/img-6.jpg"
 
 class Gallery extends Component {
     render() {
         return (
             <div id="gallery" className="Gallery-section section-padding">
-                <Sectiontitle section={"Our Gallary"} />
+                <SectionTitle section={"Our Gallery"} />
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div className="gallery-img">
                                 <ReactFancyBox
-                                    thumbnail={galimg1}
-                                    image={galimg1}
+                                    thumbnail={gallery1}
+                                    image={gallery1}
                                 />
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div className="gallery-img">
                                 <ReactFancyBox
-                                    thumbnail={galimg2}
-                                    image={galimg2}
+                                    thumbnail={gallery2}
+                                    image={gallery2}
                                 />
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div className="gallery-img">
                                 <ReactFancyBox
-                                    thumbnail={galimg3}
-                                    image={galimg3}
+                                    thumbnail={gallery3}
+                                    image={gallery3}
                                 />
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div className="gallery-img">
                                 <ReactFancyBox
-                                    thumbnail={galimg4}
-                                    image={galimg4}
+                                    thumbnail={gallery4}
+                                    image={gallery4}
                                 />
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div className="gallery-img">
                                 <ReactFancyBox
-                                    thumbnail={galimg5}
-                                    image={galimg5}
+                                    thumbnail={gallery5}
+                                    image={gallery5}
                                 />
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div className="gallery-img">
                                 <ReactFancyBox
-                                    thumbnail={galimg6}
-                                    image={galimg6}
+                                    thumbnail={gallery6}
+                                    image={gallery6}
                                 />
                             </div>
                         </div>

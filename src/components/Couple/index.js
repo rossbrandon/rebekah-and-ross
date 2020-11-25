@@ -1,5 +1,5 @@
 import React from "react"
-import Sectiontitle from "../SectionTitle"
+import SectionTitle from "../SectionTitle"
 import couple1 from "../../images/couple/rebekah.jpg"
 import couple2 from "../../images/couple/ross.png"
 import "./style.css"
@@ -8,7 +8,7 @@ const Couple = () => {
     return (
         <div id="couple" className="about-wrap">
             <div className="couple-area section-padding">
-                <Sectiontitle section={"R & R"} />
+                <SectionTitle section={"R & R"} />
                 <div className="container">
                     <div className="couple-wrap">
                         <div className="row">

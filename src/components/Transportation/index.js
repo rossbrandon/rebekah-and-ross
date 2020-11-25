@@ -1,13 +1,13 @@
 import React from "react"
 import gta1 from "../../images/gta/img-1.jpg"
 import gta2 from "../../images/gta/img-2.jpg"
-import Sectiontitle from "../SectionTitle"
+import SectionTitle from "../SectionTitle"
 import "./style.css"
 
 const Transportation = () => {
     return (
         <div className="gta-area section-padding">
-            <Sectiontitle section={"Getting There"} />
+            <SectionTitle section={"Getting There"} />
             <div className="container">
                 <div className="row">
                     <div className="col col-lg-8 offset-lg-2 col-md-8 offset-md-2">

@@ -29,7 +29,7 @@
     -o-transition: all 0.5s;
     -ms-transition: all 0.5s;
     transition: all 0.5s;
-    width: 260px;
+    /* width: 260px; */
     height: 300px;
     object-fit: cover;
 }
