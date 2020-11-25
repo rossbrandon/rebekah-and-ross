@@ -49,6 +49,11 @@
     "eslintConfig": {
         "extends": "react-app"
     },
+    "husky": {
+      "hooks": {
+          "pre-commit": "npm run format:fix"
+      }
+  },
     "browserslist": {
         "production": [
             ">0.2%",
