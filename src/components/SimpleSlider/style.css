@@ -28,7 +28,7 @@
 
 .item1 {
     background: url(../../images/slider/engagement-2.jpg) no-repeat center
-        center fixed;
+        center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -41,8 +41,7 @@
 }
 
 .item2 {
-    background: url(../../images/slider/hamilton.jpg) no-repeat center center
-        fixed;
+    background: url(../../images/slider/hamilton.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -70,6 +69,7 @@
     position: relative;
     z-index: 1;
 }
+
 .animated-circle {
     width: 103%;
     height: 103%;
@@ -82,14 +82,17 @@
     animation: pulse 1s infinite;
     z-index: -1;
 }
+
 .slide-content h2 {
     font-size: 60px;
     color: #fff;
 }
+
 .slide-subtitle h4 {
     font-size: 16px;
     color: #fff;
 }
+
 .slide-text p {
     color: #fff;
     margin-bottom: 0;
@@ -99,10 +102,12 @@
     .slide-content h2 {
         font-size: 35px;
     }
+
     .slide-content {
         width: 280px;
         height: 280px;
     }
+
     .item1,
     .item2 {
         height: 580px;
@@ -121,6 +126,7 @@
     visibility: hidden;
     transition: all 0.3s;
 }
+
 .slick-slider:hover .slick-prev,
 .slick-slider:hover .slick-next {
     opacity: 1;
