@@ -22,7 +22,7 @@
     overflow: hidden;
 }
 
-.wedding-party-img > img {
+.wedding-party-img img {
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -33,7 +33,7 @@
     object-fit: cover;
 }
 
-.wedding-party-wrap:hover > .wedding-party-img img {
+.wedding-party-wrap:hover .wedding-party-img img {
     -webkit-transform: scale(1.2) rotate(5deg);
     -ms-transform: scale(1.2) rotate(5deg);
     transform: scale(1.2) rotate(5deg);
