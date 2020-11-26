@@ -27,9 +27,9 @@
     overflow: hidden;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
     .react-fancybox {
-        height: 300px;
+        height: 325px;
         overflow: hidden;
     }
 
