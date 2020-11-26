@@ -7,7 +7,7 @@ import "./style.css"
 const Registry = () => {
     return (
         <div id="registry" className="section-padding">
-            <div className="gift-area">
+            <div className="registry-area">
                 <SectionTitle section={"We Are Registered At:"} />
                 <div className="container">
                     <div className="row mx-auto d-flex">
