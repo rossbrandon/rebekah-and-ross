@@ -23,11 +23,8 @@ class SimpleSlider extends Component {
                 <div id="home" className="item1">
                     <div className="container">
                         <div className="slide-content">
-                            <div className="slide-subtitle">
-                                <h4>WE'RE GETTING MARRIED</h4>
-                            </div>
                             <div className="slide-title">
-                                <h2>Save Our Date</h2>
+                                <h2>We're Getting Married!</h2>
                             </div>
                             <div className="slide-text">
                                 <p>{WEDDING_DATE}</p>
@@ -42,11 +39,8 @@ class SimpleSlider extends Component {
                     <div className="container">
                         <div className="container">
                             <div className="slide-content">
-                                <div className="slide-subtitle">
-                                    <h4>WERE GETTING MARRIED</h4>
-                                </div>
                                 <div className="slide-title">
-                                    <h2>Save Our Date</h2>
+                                    <h2>We're Getting Married!</h2>
                                 </div>
                                 <div className="slide-text">
                                     <p>{WEDDING_DATE}</p>

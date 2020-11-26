@@ -32,18 +32,18 @@ const Header = () => {
                                                 </AnchorLink>
                                             </li>
                                             <li>
-                                                <AnchorLink href="#couple">
-                                                    Couple
+                                                <AnchorLink href="#us">
+                                                    Us
                                                 </AnchorLink>
                                             </li>
                                             <li>
                                                 <AnchorLink href="#story">
-                                                    Story
+                                                    Our Story
                                                 </AnchorLink>
                                             </li>
                                             <li>
-                                                <AnchorLink href="#people">
-                                                    People
+                                                <AnchorLink href="#wedding-party">
+                                                    Wedding Party
                                                 </AnchorLink>
                                             </li>
                                             <li>

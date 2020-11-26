@@ -20,7 +20,6 @@ class MobileMenu extends Component {
         return (
             <div>
                 <div className={`mobileMenu ${isMenuShow ? "show" : ""}`}>
-                    {/* <div className="clox" onClick={this.menuHandler}>Close Me</div> */}
                     <div className="logo2">
                         <h2>
                             <AnchorLink href="#home" onClick={this.menuHandler}>
@@ -35,11 +34,8 @@ class MobileMenu extends Component {
                             </AnchorLink>
                         </li>
                         <li>
-                            <AnchorLink
-                                href="#couple"
-                                onClick={this.menuHandler}
-                            >
-                                Couple
+                            <AnchorLink href="#us" onClick={this.menuHandler}>
+                                Us
                             </AnchorLink>
                         </li>
                         <li>
@@ -47,15 +43,15 @@ class MobileMenu extends Component {
                                 href="#story"
                                 onClick={this.menuHandler}
                             >
-                                Story
+                                Our Story
                             </AnchorLink>
                         </li>
                         <li>
                             <AnchorLink
-                                href="#people"
+                                href="#wedding-party"
                                 onClick={this.menuHandler}
                             >
-                                People
+                                Wedding Party
                             </AnchorLink>
                         </li>
                         <li>

@@ -8,7 +8,7 @@ import "./style.css"
 
 const Couple = () => {
     return (
-        <div id="couple" className="about-wrap">
+        <div id="us" className="about-wrap">
             <div className="couple-area section-padding">
                 <SectionTitle section={"R & R"} />
                 <div className="container">

@@ -3,7 +3,7 @@ import Couple from "../../components/Couple"
 import SimpleSlider from "../../components/SimpleSlider"
 import Story from "../../components/Story"
 import Welcome from "../../components/Welcome"
-import People from "../../components/People"
+import WeddingParty from "../../components/WeddingParty"
 import Events from "../../components/Events"
 import Gallery from "../../components/Gallery"
 import Registry from "../../components/Registry"
@@ -21,7 +21,7 @@ const Homepage = () => {
             <Couple />
             <Welcome />
             <Story />
-            <People />
+            <WeddingParty />
             <Events />
             <Gallery />
             <Registry />
