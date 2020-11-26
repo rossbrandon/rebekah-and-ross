@@ -16,7 +16,7 @@ const People = () => {
                     <div className="groomsmen-bridesmaid-area-menu">
                         <div className="Groomsman-wrap">
                             <div className="row">
-                                <div className="col-lg-4 col-md-6 col-sm-6 grid mx-auto">
+                                <div className="col-lg-5 col-md-6 col-sm-6 grid mx-auto">
                                     <div className="groomsmen-bridesmaid-wrap">
                                         <div className="groomsmen-bridesmaid-img">
                                             <img
@@ -46,7 +46,7 @@ const People = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6 col-sm-6 grid mx-auto">
+                                <div className="col-lg-5 col-md-6 col-sm-6 grid mx-auto">
                                     <div className="groomsmen-bridesmaid-wrap groomsmen-bridesmaid-wrap-2 mx-auto">
                                         <div className="groomsmen-bridesmaid-img">
                                             <img
