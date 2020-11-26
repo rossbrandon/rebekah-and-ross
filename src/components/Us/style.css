@@ -86,6 +86,9 @@
 }
 
 @media (max-width: 767px) {
+    .about-wrap {
+        padding-top: 30px;
+    }
     .couple-wrap-2:before {
         display: none;
     }
