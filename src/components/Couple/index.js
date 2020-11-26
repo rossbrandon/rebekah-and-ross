@@ -1,7 +1,9 @@
 import React from "react"
 import SectionTitle from "../SectionTitle"
-import couple1 from "../../images/couple/rebekah.jpg"
-import couple2 from "../../images/couple/ross.png"
+import bride from "../../images/couple/rebekah.jpg"
+import brideFunny from "../../images/couple/rebekah-funny.jpg"
+import groom from "../../images/couple/ross.png"
+import groomFunny from "../../images/couple/ross-funny.jpg"
 import "./style.css"
 
 const Couple = () => {
@@ -15,7 +17,16 @@ const Couple = () => {
                             <div className="col-lg-6 col-md-6 col-sm-12 couple-single">
                                 <div className="couple-wrap couple-wrap-2">
                                     <div className="couple-img">
-                                        <img src={couple1} alt="thumb" />
+                                        <img
+                                            src={bride}
+                                            alt="Bride Rebekah Pool"
+                                            onMouseOver={e =>
+                                                (e.currentTarget.src = brideFunny)
+                                            }
+                                            onMouseOut={e =>
+                                                (e.currentTarget.src = bride)
+                                            }
+                                        />
                                     </div>
                                     <div className="couple-text">
                                         <div className="couple-content">
@@ -31,7 +42,16 @@ const Couple = () => {
                             <div className="col-lg-6 col-md-6 col-sm-12 couple-single">
                                 <div className="couple-wrap couple-wrap-3">
                                     <div className="couple-img couple-img-2">
-                                        <img src={couple2} alt="thumb" />
+                                        <img
+                                            src={groom}
+                                            alt="Groom Ross Brandon"
+                                            onMouseOver={e =>
+                                                (e.currentTarget.src = groomFunny)
+                                            }
+                                            onMouseOut={e =>
+                                                (e.currentTarget.src = groom)
+                                            }
+                                        />
                                     </div>
                                     <div className="couple-text">
                                         <div className="couple-content">

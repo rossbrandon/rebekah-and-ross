@@ -1,5 +1,5 @@
 .site-footer {
-    background: url(../../images/slider/engagement.jpg) no-repeat center center
+    background: url(../../images/slider/engagement-large.jpg) no-repeat top center
         fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -24,6 +24,7 @@
     border-radius: 50%;
     position: relative;
 }
+
 .site-footer .text:before {
     position: absolute;
     left: -6px;
@@ -34,6 +35,7 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 50%;
 }
+
 @media (max-width: 1199px) {
     .site-footer {
     }
@@ -65,6 +67,18 @@
 }
 
 @media (max-width: 767px) {
+    .site-footer {
+        background: url(../../images/slider/engagement-small.jpg) no-repeat center center
+            fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+        padding: 120px 0;
+        position: relative;
+        overflow: hidden;
+    }
     .site-footer h2 {
         font-size: 30px;
         padding: 0 40px;
@@ -81,6 +95,7 @@
         padding: 0;
     }
 }
+
 .site-footer p {
     font-size: 24px;
     font-size: 1.5rem;

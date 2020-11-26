@@ -18,29 +18,35 @@
     -ms-transition: all 0.5s;
     transition: all 0.5s;
 }
-.couple-img img:hover {
+
+/* .couple-img img:hover {
     -webkit-filter: grayscale(50%);
     -moz-filter: grayscale(50%);
     -o-filter: grayscale(50%);
     -ms-filter: grayscale(50%);
     filter: grayscale(50%);
-}
+} */
+
 .couple-img {
     text-align: center;
     margin-bottom: 20px;
 }
+
 .couple-text {
     text-align: center;
     max-width: 400px;
     margin: auto;
 }
+
 .couple-content h3 {
     font-size: 30px;
     color: #414141;
 }
+
 .couple-wrap-2 {
     position: relative;
 }
+
 .couple-wrap-2:before {
     position: absolute;
     right: -20px;
@@ -50,6 +56,7 @@
     background: rgba(178, 201, 211, 0.5);
     content: "";
 }
+
 .couple-wrap-2:after {
     position: absolute;
     right: -39px;
@@ -59,9 +66,11 @@
     width: 39px;
     height: 34px;
 }
+
 .couple-wrap-3 {
     position: relative;
 }
+
 .couple-wrap-3:after {
     position: absolute;
     left: -30px;

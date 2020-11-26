@@ -1,7 +1,9 @@
 import React from "react"
 import SectionTitle from "../SectionTitle"
-import bride1 from "../../images/people/1.jpg"
-import groom1 from "../../images/people/carter.jpg"
+import maidOfHonor from "../../images/people/1.jpg"
+import maidOfHonorFunny from "../../images/people/1.jpg"
+import bestMan from "../../images/people/carter.jpg"
+import bestManFunny from "../../images/people/carter-funny.jpg"
 
 import "./style.css"
 
@@ -17,7 +19,16 @@ const People = () => {
                                 <div className="col-lg-4 col-md-6 col-sm-6 grid mx-auto">
                                     <div className="groomsmen-bridesmaid-wrap">
                                         <div className="groomsmen-bridesmaid-img">
-                                            <img src={bride1} alt="bride" />
+                                            <img
+                                                src={maidOfHonor}
+                                                alt="Maid of Honor"
+                                                onMouseOver={e =>
+                                                    (e.currentTarget.src = maidOfHonorFunny)
+                                                }
+                                                onMouseOut={e =>
+                                                    (e.currentTarget.src = maidOfHonor)
+                                                }
+                                            />
                                         </div>
                                         <div className="groomsmen-bridesmaid-content">
                                             <h4>Grace Brady</h4>
@@ -28,7 +39,16 @@ const People = () => {
                                 <div className="col-lg-4 col-md-6 col-sm-6 grid mx-auto">
                                     <div className="groomsmen-bridesmaid-wrap groomsmen-bridesmaid-wrap-2 mx-auto">
                                         <div className="groomsmen-bridesmaid-img">
-                                            <img src={groom1} alt="bride" />
+                                            <img
+                                                src={bestMan}
+                                                alt="Best Man"
+                                                onMouseOver={e =>
+                                                    (e.currentTarget.src = bestManFunny)
+                                                }
+                                                onMouseOut={e =>
+                                                    (e.currentTarget.src = bestMan)
+                                                }
+                                            />
                                         </div>
                                         <div className="groomsmen-bridesmaid-content">
                                             <h4>Carter Brandon</h4>
