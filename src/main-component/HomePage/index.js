@@ -1,5 +1,5 @@
 import React from "react"
-import Couple from "../../components/Couple"
+import Us from "../../components/Us"
 import SimpleSlider from "../../components/SimpleSlider"
 import Story from "../../components/Story"
 import Welcome from "../../components/Welcome"
@@ -18,7 +18,7 @@ const Homepage = () => {
             <MobileMenu />
             <SimpleSlider />
             <CountDownWidget />
-            <Couple />
+            <Us />
             <Welcome />
             <Story />
             <WeddingParty />

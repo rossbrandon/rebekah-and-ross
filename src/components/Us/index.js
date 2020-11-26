@@ -6,7 +6,7 @@ import groom from "../../images/couple/ross.png"
 import groomFunny from "../../images/couple/ross-funny.jpg"
 import "./style.css"
 
-const Couple = () => {
+const Us = () => {
     return (
         <div id="us" className="about-wrap">
             <div className="couple-area section-padding">
@@ -64,4 +64,4 @@ const Couple = () => {
     )
 }
 
-export default Couple
+export default Us

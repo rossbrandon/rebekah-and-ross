@@ -37,22 +37,19 @@ const WeddingParty = () => {
                                             </strong>
                                             <p>
                                                 The question of who is stronger
-                                                is always in debate. But history
-                                                had proven Rebekah can take
-                                                Grace in a fight. Rebekah is
-                                                outspoken; Grace is softspoken.
-                                                The two always balance each
-                                                other out.
+                                                is always in debate. History has
+                                                proven Rebekah can take Grace in
+                                                a fight. Rebekah is outspoken;
+                                                Grace is easy-going. The two
+                                                always balance each other out.
                                                 <br />
                                                 <br />
-                                                They underestimated the value of
-                                                sisterhood until they grew into
-                                                adulthood. After college Grace
-                                                became not only Rebekah's
-                                                roommate but her best friend and
-                                                confidant.
-                                                <br />
-                                                <br />
+                                                As they've grown, they have
+                                                evolved from being roommates by
+                                                proxy to roommates by choice.
+                                                After college Grace became not
+                                                only Rebekah's roommate but her
+                                                best friend and confidant.
                                             </p>
                                         </div>
                                     </div>
@@ -77,14 +74,14 @@ const WeddingParty = () => {
                                             <p>
                                                 Ross and Carter are 5 years
                                                 apart and haven't always seen
-                                                eye to eye; literally. Carter is
+                                                eye to eye. Literally: Carter is
                                                 4 inches taller that his older
                                                 brother. As the years
                                                 progressed, Carter stopped
                                                 falling over pretending he was
                                                 hurt while playing baseball in
                                                 the front yard to get Ross in
-                                                trouble and the two became close
+                                                trouble and the two became best
                                                 friends.
                                                 <br />
                                                 <br />
