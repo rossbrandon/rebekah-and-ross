@@ -30,10 +30,11 @@ const Events = () => {
                                                         {WEDDING_DATE_FULL}
                                                     </span>
                                                     <span>
-                                                        Anthony Chapel Gargan
-                                                        Woodland Gardens Hot
-                                                        Springs National Park,
-                                                        AR
+                                                        Anthony Chapel
+                                                        <br />
+                                                        Garvan Woodland Gardens
+                                                        <br />
+                                                        Hot Springs, AR
                                                     </span>
                                                     <p>
                                                         Small, intimate,
@@ -66,7 +67,9 @@ const Events = () => {
                                                     </span>
                                                     <span>
                                                         Springdate Station 979
+                                                        <br />
                                                         Springdale Rd Suite #160
+                                                        <br />
                                                         Austin, TX
                                                     </span>
                                                     <p>
