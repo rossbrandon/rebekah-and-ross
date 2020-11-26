@@ -74,7 +74,7 @@ const WeddingParty = () => {
                                             <p>
                                                 Ross and Carter are 5 years
                                                 apart and haven't always seen
-                                                eye to eye. Literally: Carter is
+                                                eye to eye. Literally Carter is
                                                 4 inches taller that his older
                                                 brother. As the years
                                                 progressed, Carter stopped
