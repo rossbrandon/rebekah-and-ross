@@ -1,16 +1,19 @@
 .Gallery-section {
     background: rgba(178, 201, 211, 0.1);
 }
+
 .gallery-img {
     cursor: pointer;
     margin-bottom: 30px;
     overflow: hidden;
 }
+
 .thumbnail {
     transform: scale(1);
     overflow: hidden;
     transition: all 0.3s;
 }
+
 .gallery-img:hover .thumbnail {
     transform: scale(1.1);
 }
@@ -28,5 +31,9 @@
     .react-fancybox {
         height: 300px;
         overflow: hidden;
+    }
+
+    .react-fancybox .box .image-box {
+        width: 90%;
     }
 }

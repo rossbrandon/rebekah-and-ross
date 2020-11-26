@@ -6,7 +6,7 @@ import "./style.css"
 
 import gallery1 from "../../images/gallery/zachs-wedding.jpg"
 import gallery2 from "../../images/gallery/williams-wedding.jpg"
-import gallery3 from "../../images/gallery/outside-hh.jpg"
+import gallery3 from "../../images/gallery/lake-hug.png"
 import gallery4 from "../../images/gallery/cayman-islands.jpg"
 import gallery5 from "../../images/gallery/chicago.jpg"
 import gallery6 from "../../images/gallery/trail-of-lights.jpg"
