@@ -21,7 +21,7 @@ const People = () => {
                                         <div className="groomsmen-bridesmaid-img">
                                             <img
                                                 src={maidOfHonor}
-                                                alt="Maid of Honor"
+                                                alt="Matron of Honor"
                                                 onMouseOver={e =>
                                                     (e.currentTarget.src = maidOfHonorFunny)
                                                 }
@@ -32,7 +32,9 @@ const People = () => {
                                         </div>
                                         <div className="groomsmen-bridesmaid-content">
                                             <h4>Grace Brady</h4>
-                                            <span>Sister & Maid of Honor</span>
+                                            <span>
+                                                Sister & Matron of Honor
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
