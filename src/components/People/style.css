@@ -56,13 +56,13 @@
 
 .groomsmen-bridesmaid-wrap {
     overflow: hidden;
-    border-top-left-radius: 80px;
-    border-bottom-right-radius: 80px;
+    /* border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px; */
 }
 .groomsmen-bridesmaid-wrap-2 {
     border-radius: 0;
-    border-top-right-radius: 80px;
-    border-bottom-left-radius: 80px;
+    /* border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px; */
 }
 
 .groomsmen-bridesmaid-wrap:hover .social-list {

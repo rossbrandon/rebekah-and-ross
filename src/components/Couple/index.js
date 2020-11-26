@@ -31,10 +31,6 @@ const Couple = () => {
                                     <div className="couple-text">
                                         <div className="couple-content">
                                             <h3>Rebekah Pool</h3>
-                                            <p>
-                                                Hi! I am Rebekah Pool! Here's a
-                                                little about me...
-                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -56,10 +52,6 @@ const Couple = () => {
                                     <div className="couple-text">
                                         <div className="couple-content">
                                             <h3>Ross Brandon</h3>
-                                            <p>
-                                                Hi! I am Ross Brandon! Here's a
-                                                little about me...
-                                            </p>
                                         </div>
                                     </div>
                                 </div>

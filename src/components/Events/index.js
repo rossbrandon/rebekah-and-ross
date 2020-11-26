@@ -37,8 +37,9 @@ const Events = () => {
                                                         Hot Springs, AR
                                                     </span>
                                                     <p>
-                                                        Small, intimate,
-                                                        immediate family only
+                                                        Due to COVID-19, we will
+                                                        be having an intimate,
+                                                        immediate-family-only
                                                         ceremony at the
                                                         beautiful Anthony Chapel
                                                         in the Garvan Woodland
@@ -73,9 +74,13 @@ const Events = () => {
                                                         Austin, TX
                                                     </span>
                                                     <p>
-                                                        Please join us in 2022
-                                                        for a (hopefully) more
-                                                        normal celebration!{" "}
+                                                        Although we cannot host
+                                                        all of the guests we had
+                                                        planned for our
+                                                        ceremony, please join us
+                                                        in 2022 for a
+                                                        celebration in Austin
+                                                        the following year!{" "}
                                                     </p>
                                                     <div className="btn">
                                                         <a
