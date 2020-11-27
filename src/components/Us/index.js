@@ -54,8 +54,8 @@ const Us = () => {
                                         <div className="couple-content">
                                             <h3>Ross Brandon</h3>
                                             <p>
-                                                A tech-scene Austin transplant
-                                                from Fayetteville, AR
+                                                A nerdy Austin transplant from
+                                                Fayetteville, AR
                                             </p>
                                         </div>
                                     </div>
