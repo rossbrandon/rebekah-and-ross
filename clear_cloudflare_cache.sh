@@ -8,22 +8,22 @@ key="$1"
 case $key in
     -e|--email)
     CLOUDFLARE_AUTH_EMAIL="$2"
-    shift # past argument
-    shift # past value
+    shift # passed argument
+    shift # passed value
     ;;
     -k|--authkey)
     CLOUDFLARE_AUTH_KEY="$2"
-    shift # past argument
-    shift # past value
+    shift # passed argument
+    shift # passed value
     ;;
     -z|--zone)
     CLOUDFLARE_ZONE="$2"
-    shift # past argument
-    shift # past value
+    shift # passed argument
+    shift # passed value
     ;;
     *)    # unknown option
     POSITIONAL+=("$1") # save it in an array for later
-    shift # past argument
+    shift # passed argument
     ;;
 esac
 done
