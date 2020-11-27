@@ -37,10 +37,7 @@ class Gallery extends Component {
                             <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div className="gallery-img">
                                     <a href={gallery2} data-attribute="SRL">
-                                        <img
-                                            src={gallery2}
-                                            alt="Abel's on the Lake"
-                                        />
+                                        <img src={gallery2} alt="Lake Hug" />
                                     </a>
                                 </div>
                             </div>
@@ -137,7 +134,10 @@ class Gallery extends Component {
                             <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div className="gallery-img">
                                     <a href={gallery12} data-attribute="SRL">
-                                        <img src={gallery12} alt="Photo Van!" />
+                                        <img
+                                            src={gallery12}
+                                            alt="Not a photo-booth. A Photo-Van!"
+                                        />
                                     </a>
                                 </div>
                             </div>

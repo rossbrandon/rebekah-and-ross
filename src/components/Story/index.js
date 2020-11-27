@@ -20,7 +20,7 @@ const Story = () => {
                         <div className="col-lg-6 col-md-12 col-12">
                             <div className="story-text left-align-text">
                                 <h3>How We Met</h3>
-                                <span className="date">March ?, 2016</span>
+                                <span className="date">February 27, 2016</span>
                                 <p>
                                     Ross is an Austin tech-scene transplant from
                                     Fayetteville, AR and Rebekah is a tried and
