@@ -1,0 +1,24 @@
+language: node_js
+node_js:
+- 12.18.2
+cache: npm
+
+install:
+  - npm install
+
+script:
+  - npm run build
+
+deploy:
+  edge: true
+  provider: pages
+  strategy: git
+  cleanup: true
+  token: $GITHUB_TOKEN
+  target_branch: gh-pages
+  keep_history: true
+  on:
+    branch: main
+
+after_success:
+  - bash clear_cloudflare_cache.sh -k "$CLOUDFLARE_AUTH_KEY" -e "$CLOUDFLARE_AUTH_EMAIL" -z "$CLOUDFLARE_ZONE"
