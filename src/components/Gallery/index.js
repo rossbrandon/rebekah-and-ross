@@ -46,7 +46,7 @@ class Gallery extends Component {
                                     <a href={gallery3} data-attribute="SRL">
                                         <img
                                             src={gallery3}
-                                            alt="In the Cayman Islands"
+                                            alt="Beach life in the Cayman Islands"
                                         />
                                     </a>
                                 </div>
@@ -56,7 +56,7 @@ class Gallery extends Component {
                                     <a href={gallery4} data-attribute="SRL">
                                         <img
                                             src={gallery4}
-                                            alt="Chicago vacation!"
+                                            alt="St. Patty's Day in Chicago"
                                         />
                                     </a>
                                 </div>
@@ -66,7 +66,7 @@ class Gallery extends Component {
                                     <a href={gallery5} data-attribute="SRL">
                                         <img
                                             src={gallery5}
-                                            alt="Austin Trail of Lights"
+                                            alt="Christmas time in the Austin Trail of Lights"
                                         />
                                     </a>
                                 </div>
@@ -76,7 +76,7 @@ class Gallery extends Component {
                                     <a href={gallery6} data-attribute="SRL">
                                         <img
                                             src={gallery6}
-                                            alt="Skiing at Squaw Valley"
+                                            alt="Top of the mountain skiing at Squaw Valley"
                                         />
                                     </a>
                                 </div>
@@ -104,9 +104,10 @@ class Gallery extends Component {
                             <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div className="gallery-img">
                                     <a href={gallery9} data-attribute="SRL">
+                                        {/* eslint-disable-next-line */}
                                         <img
                                             src={gallery9}
-                                            alt="Outdoor fun at Rebekah's aunt's in Johnson City"
+                                            alt="Photobomb by Ellie"
                                         />
                                     </a>
                                 </div>
@@ -116,7 +117,7 @@ class Gallery extends Component {
                                     <a href={gallery10} data-attribute="SRL">
                                         <img
                                             src={gallery10}
-                                            alt="Chillin' at Austin City Limits"
+                                            alt="ACL Stylin'"
                                         />
                                     </a>
                                 </div>
