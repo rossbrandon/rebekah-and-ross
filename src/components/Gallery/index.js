@@ -19,7 +19,7 @@ import gallery12 from "../../images/gallery/photo-van.jpg"
 class Gallery extends Component {
     render() {
         return (
-            <div id="gallery" className="Gallery-section section-padding">
+            <div id="gallery" className="gallery-section section-padding">
                 <SectionTitle section={"Our Gallery"} />
                 <SRLWrapper>
                     <div className="container">
