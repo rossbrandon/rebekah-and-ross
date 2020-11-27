@@ -1,8 +1,8 @@
 import React from "react"
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
-import Homepage from "../HomePage/index"
-import Footer from "../../components/Footer"
-import ScrollBar from "../../components/ScrollBar"
+import Homepage from "./pages/HomePage/index"
+import Footer from "./components/Footer"
+import ScrollBar from "./components/ScrollBar"
 import "./App.css"
 
 const App = () => {

@@ -47,11 +47,11 @@ const Events = () => {
                                                     </p>
                                                     <div className="btn">
                                                         <a
-                                                            href="https://www.google.com/maps/place/Anthony+Chapel/@34.4355043,-93.0437198,15z/data=!4m5!3m4!1s0x0:0x1357362e97b30e75!8m2!3d34.4355043!4d-93.0437198?hl=en"
+                                                            href="https://www.garvangardens.org/weddings/anthony_chapel/default.aspx"
                                                             target="_blank"
                                                             rel="noopener noreferrer"
                                                         >
-                                                            Location
+                                                            Info
                                                         </a>
                                                     </div>
                                                 </div>
@@ -82,6 +82,15 @@ const Events = () => {
                                                         celebration in Austin
                                                         the following year!{" "}
                                                     </p>
+                                                    <div className="btn">
+                                                        <a
+                                                            href="https://springdalestation.com/"
+                                                            target="_blank"
+                                                            rel="noopener noreferrer"
+                                                        >
+                                                            Info
+                                                        </a>
+                                                    </div>
                                                     <div className="btn">
                                                         <a
                                                             href="https://goo.gl/maps/BUi7TBi9NfD2"
