@@ -134,6 +134,7 @@ class Gallery extends Component {
                             <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div className="gallery-img">
                                     <a href={gallery12} data-attribute="SRL">
+                                        {/* eslint-disable-next-line */}
                                         <img
                                             src={gallery12}
                                             alt="Not a photo-booth. A Photo-Van!"
