@@ -42,8 +42,8 @@ const Story = () => {
                                 <span className="date">June 3, 2016</span>
                                 <p>
                                     Rebekah and Ross did not officially start
-                                    dating after their first date. It was their
-                                    SECOND first date that stuck.
+                                    dating after their first date. It was their{" "}
+                                    <i>second</i> first date that stuck.
                                     <br />
                                     <br />
                                     They quickly realized that this was
