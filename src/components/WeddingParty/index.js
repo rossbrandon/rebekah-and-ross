@@ -39,17 +39,24 @@ const WeddingParty = () => {
                                                 The question of who is stronger
                                                 is always in debate. History has
                                                 proven Rebekah can take Grace in
-                                                a fight. Rebekah is outspoken;
-                                                Grace is easy-going. The two
-                                                always balance each other out.
+                                                a fight.
                                                 <br />
                                                 <br />
-                                                As they've grown, they have
-                                                evolved from being roommates by
-                                                proxy to roommates by choice.
-                                                After college Grace became not
-                                                only Rebekah's roommate but her
-                                                best friend and confidant.
+                                                Grace and Rebekah's friendship
+                                                and bond has been one of the
+                                                greatest gifts "growing up" has
+                                                offered. After college, Grace
+                                                and Rebekah became roommates and
+                                                they absolutely loved it!
+                                                Rebekah will never forget the
+                                                days they didn't have a dish
+                                                washer and the nights they ate
+                                                Totinos party pizzas (still do!)
+                                                and stayed up late learning the
+                                                lyrics to the Frozen Soundtrack.
+                                                Grace is Rebekah's best friend
+                                                and confidant. Rebekah is so
+                                                lucky.
                                             </p>
                                         </div>
                                     </div>
