@@ -10,7 +10,7 @@ welcome-area
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-    height: 500px;
+    height: 650px;
 }
 
 .welcome-area:before {

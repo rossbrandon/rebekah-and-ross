@@ -55,12 +55,9 @@ const Story = () => {
                                     she was in the bathroom. Rebekah’s
                                     outspokenness was welcomed by Ross’s calm
                                     demeanor and they quickly realized that this
-                                    was something real. They had the most fun
-                                    with each other, encouraged each other, made
-                                    each other better and sure enough... that
-                                    second date would turn into a third; one
-                                    year of dating into four and a proposal to
-                                    turn that into a lifetime.
+                                    was something real. The second date turned
+                                    into a third; one year of dating turned into
+                                    four and that turned into...
                                 </p>
                             </div>
                         </div>
@@ -109,9 +106,8 @@ const Story = () => {
                                     friend and love of his life forever. The day
                                     was beautiful, the man was perfect, the girl
                                     was speechless. Shaking and in tears, she
-                                    put her hand out for the ring and started
-                                    hugging and kissing ross before she could
-                                    even say yes - she said yes!
+                                    put her hand out for the ring and she said
+                                    yes!
                                 </p>
                             </div>
                         </div>

@@ -1,5 +1,6 @@
 import React from "react"
 import AnchorLink from "react-anchor-link-smooth-scroll"
+import {WEDDING_DATE} from "../../util/constants"
 import "./style.css"
 
 const Welcome = () => {
@@ -11,13 +12,23 @@ const Welcome = () => {
                         <div className="welcome-content">
                             <h2>Our Big Day</h2>
                             <p>
-                                Due to COVID-19 precautions, we will
-                                unfortunately not be inviting guests to our
-                                wedding ceremony.
-                                <br /> <br />
-                                However, we will be hosting a party for everyone
-                                to join in on our celebration in 2022! Please
-                                click the Events button below for details!
+                                Out of an abundance of caution we will be having
+                                a private wedding ceremony. While we wish we
+                                could celebrate this special day with all of our
+                                friends and family, we just can't wait to say ‘I
+                                do’ and make it official! Please hold us in your
+                                hearts on {WEDDING_DATE} (Yes, a Monday!) as we
+                                make our vows to one another.
+                                <br />
+                                <br />
+                                Don't worry, we are still going to celebrate! We
+                                will be hosting a party for everyone to
+                                celebrate our marriage together. Please click
+                                the Events button below for details!
+                                <br />
+                                <br />
+                                We appreciate your continued love and support,
+                                it means more than you know.
                             </p>
                             <div className="btn">
                                 <AnchorLink href="#events">Events</AnchorLink>

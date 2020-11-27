@@ -37,13 +37,19 @@ const Events = () => {
                                                         Hot Springs, AR
                                                     </span>
                                                     <p>
-                                                        Due to COVID-19, we will
-                                                        be having an intimate,
+                                                        When COVID-19 makes you
+                                                        change your wedding
+                                                        plans, you make it a
+                                                        destination! We will be
+                                                        having an intimate,
                                                         immediate-family-only
                                                         ceremony at the
                                                         beautiful Anthony Chapel
                                                         in the Garvan Woodland
-                                                        Gardens.{" "}
+                                                        Gardens. Please check
+                                                        this website at a later
+                                                        date for photos of our
+                                                        magical day.
                                                     </p>
                                                     <div className="btn">
                                                         <a
@@ -67,20 +73,21 @@ const Events = () => {
                                                         {PARTY_DATE_FULL}
                                                     </span>
                                                     <span>
-                                                        Springdate Station 979
+                                                        Springdate Station
                                                         <br />
-                                                        Springdale Rd Suite #160
+                                                        979 Springdale Road #160
                                                         <br />
                                                         Austin, TX
                                                     </span>
                                                     <p>
-                                                        Although we cannot host
-                                                        all of the guests we had
-                                                        planned for our
-                                                        ceremony, please join us
-                                                        in 2022 for a
-                                                        celebration in Austin
-                                                        the following year!{" "}
+                                                        Please join us for the
+                                                        greatest
+                                                        one-year-anniversary-celebration-bash
+                                                        at our original wedding
+                                                        venue, Springdale
+                                                        Station on weekend of
+                                                        our original wedding
+                                                        date!
                                                     </p>
                                                     <div className="btn">
                                                         <a
