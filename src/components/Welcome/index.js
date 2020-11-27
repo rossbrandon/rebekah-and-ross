@@ -9,7 +9,7 @@ const Welcome = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="welcome-content">
-                            <h2>Welcome to our big day</h2>
+                            <h2>Our Big Day</h2>
                             <p>
                                 Due to COVID-19 precautions, we will
                                 unfortunately not be inviting guests to our
