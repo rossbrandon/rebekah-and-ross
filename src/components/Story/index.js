@@ -26,6 +26,8 @@ const Story = () => {
                                     engagement party, Rebekah and Ross met at an
                                     Irish pub at the Domain through a mutual
                                     friend who had come to town for the party.
+                                    <br />
+                                    <br />
                                     The first encounter was short, but Ross was
                                     taken away by Rebekah’s baby blue eyes and
                                     Rebekah left the bar asking her friend about
@@ -42,19 +44,17 @@ const Story = () => {
                                 <h3>Our Second First Date</h3>
                                 <span className="date">June 3, 2016</span>
                                 <p>
-                                    Sometimes magic happens on the first date.
-                                    Or sometimes it takes <i>two</i> first
-                                    dates. Rebekah and Ross did not officially
-                                    start dating after their first date. It was
-                                    their <i>second</i> first date that stuck.
+                                    Rebekah and Ross did not officially start
+                                    dating after their first date. It was their{" "}
+                                    <i>second</i> first date that stuck.
                                     <br />
                                     <br />
                                     Their second first date started at a sushi
                                     restaurant where Rebekah talked so loud Ross
                                     had to apologize to the other diners while
                                     she was in the bathroom. Rebekah’s
-                                    outspokenness was welcomed by Ross’s calm
-                                    demeanor and they quickly realized that this
+                                    outspokenness was welcomed by Ross’ calm
+                                    demeanor. They quickly realized that this
                                     was something real. The second date turned
                                     into a third; one year of dating turned into
                                     four and that turned into...
