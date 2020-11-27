@@ -31,6 +31,7 @@ const Us = () => {
                                     <div className="couple-text">
                                         <div className="couple-content">
                                             <h3>Rebekah Pool</h3>
+                                            <p>A tried and true Austinite</p>
                                         </div>
                                     </div>
                                 </div>
@@ -52,6 +53,10 @@ const Us = () => {
                                     <div className="couple-text">
                                         <div className="couple-content">
                                             <h3>Ross Brandon</h3>
+                                            <p>
+                                                A tech-scene Austin transplant
+                                                from Fayetteville, AR
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
