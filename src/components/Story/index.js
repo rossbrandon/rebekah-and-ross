@@ -23,7 +23,12 @@ const Story = () => {
                                 <p>
                                     Rebekah and Ross did not start officially
                                     dating after their first date. It was their
-                                    SECOND first date that did the trick.{" "}
+                                    SECOND first date that stuck.
+                                    <br />
+                                    <br />
+                                    Little did they know that one date would
+                                    turn into two. One year of dating into four
+                                    and a proposal for a lifetime.{" "}
                                 </p>
                             </div>
                         </div>
@@ -32,6 +37,15 @@ const Story = () => {
                                 <h3>Our Engagement</h3>
                                 <span className="date">March 5, 2020</span>
                                 <p>
+                                    It is no secret that Rebekah loves the
+                                    Hamilton musical. Rebekah and Ross had seen
+                                    Hamilton together once in Chicago in 2017,
+                                    but never on Broadway where it all began.
+                                    Knowing this, Ross surpised Rebekah with
+                                    Hamilton tickets in New York City for
+                                    Christmas. All with a hidden agenda...
+                                    <br />
+                                    <br />
                                     After walking the Brooklyn Bridge with a
                                     ring tightly in his grasp, Ross proposed
                                     unexpectedly in the Brooklyn Bridge Park in
