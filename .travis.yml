@@ -12,6 +12,7 @@ script:
 deploy:
   edge: true
   provider: pages
+  strategy: git
   cleanup: true
   token: $GITHUB_TOKEN
   local_dir: build
@@ -20,5 +21,5 @@ deploy:
   on:
     branch: main
 
-# after_success:
-#   - bash clear_cloudflare_cache.sh -k "$CLOUDFLARE_AUTH_KEY" -e "$CLOUDFLARE_AUTH_EMAIL" -z "$CLOUDFLARE_ZONE"
+after_success:
+  - bash clear_cloudflare_cache.sh -k "$CLOUDFLARE_AUTH_KEY" -e "$CLOUDFLARE_AUTH_EMAIL" -z "$CLOUDFLARE_ZONE"
