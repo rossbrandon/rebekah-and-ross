@@ -2,7 +2,7 @@ import React from "react"
 import SectionTitle from "../SectionTitle"
 import {WEDDING_DATE_FULL, PARTY_DATE_FULL} from "../../util/constants"
 import event1 from "../../images/events/anthony-chapel.jpg"
-import event2 from "../../images/events/springdale-station.jpg"
+import event2 from "../../images/events/springdale-station-inside.jpg"
 
 import "./style.css"
 
