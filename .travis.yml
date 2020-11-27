@@ -11,9 +11,8 @@ script:
 
 deploy:
   provider: pages
-  strategy: git
-  cleanup: true
-  token: $GITHUB_TOKEN
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
   local_dir: build
   target_branch: gh-pages
   keep_history: true
