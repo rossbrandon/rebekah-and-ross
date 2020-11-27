@@ -25,11 +25,11 @@ const Story = () => {
                                     Ross is an Austin tech-scene transplant from
                                     Fayetteville, AR and Rebekah is an tried and
                                     true Austinite. At the time Ross lived in
-                                    the Domain. He and a few friends were
-                                    relaxing at the local Irish pub when a
-                                    mutual friend connected our groups. Ross was
-                                    immediately struck by Rebekah and asked her
-                                    out that night.
+                                    the Domain. He and a few friends were at the
+                                    local Irish pub when a mutual friend
+                                    connected our groups. Ross was immediately
+                                    struck by Rebekah and asked her out that
+                                    very night.
                                     <br />
                                     <br />
                                     (Rebekah needs to inject her side here)
@@ -47,12 +47,12 @@ const Story = () => {
                                     <br />
                                     <br />
                                     They quickly realized that this was
-                                    something real. They had the most fun
-                                    together, encouraged and made each other
-                                    better and sure enough... that second date
-                                    would turn into a third; one year of dating
-                                    into four and a proposal to turn that into a
-                                    lifetime.
+                                    something real. They had the most fun with
+                                    each other, encouraged each other, and made
+                                    each other better and sure enough... that
+                                    second date would turn into a third; one
+                                    year of dating into four and a proposal to
+                                    turn that into a lifetime.
                                 </p>
                             </div>
                         </div>
@@ -88,7 +88,7 @@ const Story = () => {
                                     selfie opportunities. The two made it to the
                                     beautiful Brooklyn Bridge Park and Rebekah
                                     wanted a picture. Ross put his coat on the
-                                    ground and setup his phone agaisnt it for a
+                                    ground and setup his phone against it for a
                                     timed picture. Except... he turned on the
                                     video. Feigning a countdown for a picture,
                                     Ross took Rebekah's hand, got down on one

@@ -75,13 +75,13 @@ const WeddingParty = () => {
                                                 Ross and Carter are 5 years
                                                 apart and haven't always seen
                                                 eye to eye. Literally: Carter is
-                                                4 inches taller that his older
+                                                4 inches taller than his older
                                                 brother. As the years
                                                 progressed, Carter stopped
                                                 pretending to fall over hurt
                                                 while playing baseball in the
                                                 front yard and the two became
-                                                best friends.
+                                                the best of friends.
                                                 <br />
                                                 <br />
                                                 Although Carter lives in Kansas
