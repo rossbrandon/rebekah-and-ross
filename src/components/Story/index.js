@@ -23,8 +23,8 @@ const Story = () => {
                                 <span className="date">March ?, 2016</span>
                                 <p>
                                     Ross is an Austin tech-scene transplant from
-                                    Fayetteville, AR and Rebekah is an tried and
-                                    true Austinite. At the time Ross lived in
+                                    Fayetteville, AR and Rebekah is a tried and
+                                    true Austinite. At the time, Ross lived in
                                     the Domain. He and a few friends were at the
                                     local Irish pub when a mutual friend
                                     connected our groups. Ross was immediately
@@ -77,7 +77,7 @@ const Story = () => {
                                     but never on Broadway where it all began.
                                     Knowing this, Ross surpised Rebekah with
                                     Hamilton tickets in New York City for
-                                    Christmas. All with a hidden agenda...
+                                    Christmas. With a hidden agenda...
                                     <br />
                                     <br />
                                     After arguring over which deli had the best

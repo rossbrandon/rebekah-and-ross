@@ -10,6 +10,7 @@ import Registry from "../../components/Registry"
 import Header from "../../components/Header"
 import MobileMenu from "../../components/MobileMenu"
 import CountDownWidget from "../../components/CountDownWidget"
+import SimpleReactLightbox from "simple-react-lightbox"
 
 const Homepage = () => {
     return (
@@ -23,7 +24,9 @@ const Homepage = () => {
             <Story />
             <WeddingParty />
             <Events />
-            <Gallery />
+            <SimpleReactLightbox>
+                <Gallery />
+            </SimpleReactLightbox>
             <Registry />
         </div>
     )

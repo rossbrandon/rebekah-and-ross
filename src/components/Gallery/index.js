@@ -1,7 +1,6 @@
 import React, {Component} from "react"
-import ReactFancyBox from "react-fancybox"
+import {SRLWrapper} from "simple-react-lightbox"
 import SectionTitle from "../SectionTitle"
-import "react-fancybox/lib/fancybox.css"
 import "./style.css"
 
 import gallery1 from "../../images/gallery/graces-wedding.jpg"
@@ -22,108 +21,129 @@ class Gallery extends Component {
         return (
             <div id="gallery" className="Gallery-section section-padding">
                 <SectionTitle section={"Our Gallery"} />
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                            <div className="gallery-img">
-                                <ReactFancyBox
-                                    thumbnail={gallery1}
-                                    image={gallery1}
-                                />
+                <SRLWrapper>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="gallery-img">
+                                    <a href={gallery1} data-attribute="SRL">
+                                        <img
+                                            src={gallery1}
+                                            alt="Rebekah's sister Grace's wedding. Their first major event together!"
+                                        />
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                            <div className="gallery-img">
-                                <ReactFancyBox
-                                    thumbnail={gallery2}
-                                    image={gallery2}
-                                />
+                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="gallery-img">
+                                    <a href={gallery2} data-attribute="SRL">
+                                        <img
+                                            src={gallery2}
+                                            alt="Abel's on the Lake"
+                                        />
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                            <div className="gallery-img">
-                                <ReactFancyBox
-                                    thumbnail={gallery3}
-                                    image={gallery3}
-                                />
+                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="gallery-img">
+                                    <a href={gallery3} data-attribute="SRL">
+                                        <img
+                                            src={gallery3}
+                                            alt="In the Cayman Islands"
+                                        />
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                            <div className="gallery-img">
-                                <ReactFancyBox
-                                    thumbnail={gallery4}
-                                    image={gallery4}
-                                />
+                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="gallery-img">
+                                    <a href={gallery4} data-attribute="SRL">
+                                        <img
+                                            src={gallery4}
+                                            alt="Chicago vacation!"
+                                        />
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                            <div className="gallery-img">
-                                <ReactFancyBox
-                                    thumbnail={gallery5}
-                                    image={gallery5}
-                                />
+                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="gallery-img">
+                                    <a href={gallery5} data-attribute="SRL">
+                                        <img
+                                            src={gallery5}
+                                            alt="Austin Trail of Lights"
+                                        />
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                            <div className="gallery-img">
-                                <ReactFancyBox
-                                    thumbnail={gallery6}
-                                    image={gallery6}
-                                />
+                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="gallery-img">
+                                    <a href={gallery6} data-attribute="SRL">
+                                        <img
+                                            src={gallery6}
+                                            alt="Skiing at Squaw Valley"
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="gallery-img">
+                                    <a href={gallery7} data-attribute="SRL">
+                                        <img
+                                            src={gallery7}
+                                            alt="Champagne Cheers!"
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="gallery-img">
+                                    <a href={gallery8} data-attribute="SRL">
+                                        <img
+                                            src={gallery8}
+                                            alt="Together at Ross's cousin's wedding"
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="gallery-img">
+                                    <a href={gallery9} data-attribute="SRL">
+                                        <img
+                                            src={gallery9}
+                                            alt="Outdoor fun at Rebekah's aunt's in Johnson City"
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="gallery-img">
+                                    <a href={gallery10} data-attribute="SRL">
+                                        <img
+                                            src={gallery10}
+                                            alt="Chillin' at Austin City Limits"
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="gallery-img">
+                                    <a href={gallery11} data-attribute="SRL">
+                                        <img
+                                            src={gallery11}
+                                            alt="Big Cedar Lodge in Branson, MO"
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div className="gallery-img">
+                                    <a href={gallery12} data-attribute="SRL">
+                                        <img src={gallery12} alt="Photo Van!" />
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="row">
-                        <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                            <div className="gallery-img">
-                                <ReactFancyBox
-                                    thumbnail={gallery7}
-                                    image={gallery7}
-                                />
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                            <div className="gallery-img">
-                                <ReactFancyBox
-                                    thumbnail={gallery8}
-                                    image={gallery8}
-                                />
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                            <div className="gallery-img">
-                                <ReactFancyBox
-                                    thumbnail={gallery9}
-                                    image={gallery9}
-                                />
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                            <div className="gallery-img">
-                                <ReactFancyBox
-                                    thumbnail={gallery10}
-                                    image={gallery10}
-                                />
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                            <div className="gallery-img">
-                                <ReactFancyBox
-                                    thumbnail={gallery11}
-                                    image={gallery11}
-                                />
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                            <div className="gallery-img">
-                                <ReactFancyBox
-                                    thumbnail={gallery12}
-                                    image={gallery12}
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </SRLWrapper>
             </div>
         )
     }
