@@ -21,8 +21,7 @@ const Welcome = () => {
                                 make our vows to one another.
                                 <br />
                                 <br />
-                                Don't worry, we are still going to celebrate! We
-                                will be hosting a party for everyone to
+                                Don't worry, we will still be hosting a party to
                                 celebrate our marriage together. Please click
                                 the Events button below for details!
                                 <br />

@@ -34,8 +34,8 @@ const Story = () => {
                                     the cute one with the blonde hair and the
                                     dog. After the engagement party, Rebekah
                                     went back out with her friend for one reason
-                                    and one reason only, Ross asked her out that
-                                    very night.
+                                    and one reason only Ross. He asked her out
+                                    that very night.
                                 </p>
                             </div>
                         </div>
