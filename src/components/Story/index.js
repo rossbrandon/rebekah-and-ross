@@ -22,10 +22,10 @@ const Story = () => {
                                 <h3>How We Met</h3>
                                 <span className="date">February 27, 2016</span>
                                 <p>
-                                    The same day as Rebekah’s sister Grace’s
-                                    engagement party, Rebekah and Ross met at an
-                                    Irish pub at the Domain through a mutual
-                                    friend who had come to town for the party.
+                                    Rebekah and Ross met at an Irish pub in the
+                                    Domain through a mutual friend who had come
+                                    into town on the same day as her sister's
+                                    engagement party.
                                     <br />
                                     <br />
                                     The first encounter was short, but Ross was
