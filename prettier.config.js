@@ -4,13 +4,13 @@ const config = {
     useTabs: false,
     semi: false,
     singleQuote: false,
-    quoteProps: "consistent",
+    quoteProps: 'consistent',
     jsxSingleQuote: false,
-    trailingComma: "all",
+    trailingComma: 'all',
     bracketSpacing: false,
     jsxBracketSameLine: false,
-    arrowParens: "avoid",
-    endOfLine: "lf",
+    arrowParens: 'avoid',
+    endOfLine: 'lf',
 }
 
 module.exports = config
