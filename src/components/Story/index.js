@@ -1,14 +1,16 @@
-import React from "react"
-import SectionTitle from "../SectionTitle"
-import story1 from "../../images/story/dating.jpg"
-import story2 from "../../images/story/zachs-wedding.jpg"
-import story3 from "../../images/story/engagement.jpg"
-import "./style.css"
+import story1 from 'images/story/dating.jpg'
+import story3 from 'images/story/engagement.jpg'
+import story2 from 'images/story/zachs-wedding.jpg'
+import React from 'react'
+
+import './style.css'
+
+import SectionTitle from '../SectionTitle'
 
 const Story = () => {
     return (
         <div id="story" className="story-area section-padding">
-            <SectionTitle section={"Our Story"} />
+            <SectionTitle section={'Our Story'} />
             <div className="container">
                 <div className="story-wrap">
                     <div className="row">
@@ -45,7 +47,7 @@ const Story = () => {
                                 <span className="date">June 3, 2016</span>
                                 <p>
                                     Rebekah and Ross did not officially start
-                                    dating after their first date. It was their{" "}
+                                    dating after their first date. It was their{' '}
                                     <i>second</i> first date that stuck.
                                     <br />
                                     <br />

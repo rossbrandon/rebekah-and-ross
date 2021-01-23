@@ -1,7 +1,8 @@
-import React from "react"
-import AnchorLink from "react-anchor-link-smooth-scroll"
-import {WEDDING_DATE} from "../../util/constants"
-import "./style.css"
+import React from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+import { WEDDING_DATE } from 'utils/constants'
+
+import './style.css'
 
 const Welcome = () => {
     return (

@@ -1,16 +1,18 @@
-import React from "react"
-import SectionTitle from "../SectionTitle"
-import bride from "../../images/couple/rebekah.jpg"
-import brideFunny from "../../images/couple/rebekah-funny.jpg"
-import groom from "../../images/couple/ross.png"
-import groomFunny from "../../images/couple/ross-funny.jpg"
-import "./style.css"
+import bride from 'images/couple/rebekah.jpg'
+import brideFunny from 'images/couple/rebekah-funny.jpg'
+import groom from 'images/couple/ross.png'
+import groomFunny from 'images/couple/ross-funny.jpg'
+import React from 'react'
+
+import './style.css'
+
+import SectionTitle from '../SectionTitle'
 
 const Us = () => {
     return (
         <div id="us" className="about-wrap">
             <div className="couple-area section-padding">
-                <SectionTitle section={"R & R"} />
+                <SectionTitle section={'R & R'} />
                 <div className="container">
                     <div className="couple-wrap">
                         <div className="row">

@@ -1,5 +1,7 @@
-import React from "react"
-import "./style.css"
+import { PropTypes } from 'prop-types'
+import React from 'react'
+
+import './style.css'
 
 const SectionTitle = props => {
     return (
@@ -13,6 +15,10 @@ const SectionTitle = props => {
             </div>
         </div>
     )
+}
+
+SectionTitle.propTypes = {
+    section: PropTypes.string,
 }
 
 export default SectionTitle

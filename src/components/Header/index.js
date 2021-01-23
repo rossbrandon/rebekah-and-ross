@@ -1,10 +1,10 @@
-import React from "react"
-import AnchorLink from "react-anchor-link-smooth-scroll"
-import StickyHeader from "react-sticky-header"
-import {NAME_SHORT} from "../../util/constants"
+import React from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+import StickyHeader from 'react-sticky-header'
+import { NAME_SHORT } from 'utils/constants'
 
-import "react-sticky-header/styles.css"
-import "./style.css"
+import 'react-sticky-header/styles.css'
+import './style.css'
 
 const Header = () => {
     return (

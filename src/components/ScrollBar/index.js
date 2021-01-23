@@ -1,7 +1,7 @@
-import React from "react"
-import AnchorLink from "react-anchor-link-smooth-scroll"
+import React from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
-import "./style.css"
+import './style.css'
 
 const ScrollBar = () => {
     return (

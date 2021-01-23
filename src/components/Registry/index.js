@@ -1,14 +1,16 @@
-import React from "react"
-import SectionTitle from "../SectionTitle"
-import registry1 from "../../images/registry/logo-bedbathandbeyond.png"
-import registry2 from "../../images/registry/logo-crateandbarrel.png"
-import "./style.css"
+import registry1 from 'images/registry/logo-bedbathandbeyond.png'
+import registry2 from 'images/registry/logo-crateandbarrel.png'
+import React from 'react'
+
+import './style.css'
+
+import SectionTitle from '../SectionTitle'
 
 const Registry = () => {
     return (
         <div id="registry" className="section-padding">
             <div className="registry-area">
-                <SectionTitle section={"We Are Registered At:"} />
+                <SectionTitle section={'We Are Registered At:'} />
                 <div className="container">
                     <div className="row mx-auto d-flex">
                         <div className="col-lg-1 offset-lg-3 col-md-2 offset-md-2 col-sm-2 offset-sm-1">

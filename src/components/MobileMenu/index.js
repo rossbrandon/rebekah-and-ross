@@ -1,7 +1,8 @@
-import React, {Component} from "react"
-import AnchorLink from "react-anchor-link-smooth-scroll"
-import {NAME_SHORT} from "../../util/constants"
-import "./style.css"
+import React, { Component } from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+import { NAME_SHORT } from 'utils/constants'
+
+import './style.css'
 
 class MobileMenu extends Component {
     state = {
@@ -15,11 +16,11 @@ class MobileMenu extends Component {
     }
 
     render() {
-        const {isMenuShow} = this.state
+        const { isMenuShow } = this.state
 
         return (
             <div>
-                <div className={`mobileMenu ${isMenuShow ? "show" : ""}`}>
+                <div className={`mobileMenu ${isMenuShow ? 'show' : ''}`}>
                     <div className="logo2">
                         <h2>
                             <AnchorLink href="#home" onClick={this.menuHandler}>

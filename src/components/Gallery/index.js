@@ -1,26 +1,27 @@
-import React, {Component} from "react"
-import {SRLWrapper} from "simple-react-lightbox"
-import SectionTitle from "../SectionTitle"
-import "./style.css"
+import gallery10 from 'images/gallery/acl.jpg'
+import gallery11 from 'images/gallery/big-cedar.jpg'
+import gallery3 from 'images/gallery/cayman-islands.jpg'
+import gallery7 from 'images/gallery/champagne.jpg'
+import gallery4 from 'images/gallery/chicago.jpg'
+import gallery9 from 'images/gallery/deborahs.jpg'
+import gallery1 from 'images/gallery/graces-wedding.jpg'
+import gallery2 from 'images/gallery/lake-hug.png'
+import gallery12 from 'images/gallery/photo-van.jpg'
+import gallery6 from 'images/gallery/skiing.jpg'
+import gallery5 from 'images/gallery/trail-of-lights.jpg'
+import gallery8 from 'images/gallery/williams-wedding.jpg'
+import React, { Component } from 'react'
+import { SRLWrapper } from 'simple-react-lightbox'
 
-import gallery1 from "../../images/gallery/graces-wedding.jpg"
-import gallery2 from "../../images/gallery/lake-hug.png"
-import gallery3 from "../../images/gallery/cayman-islands.jpg"
-import gallery4 from "../../images/gallery/chicago.jpg"
-import gallery5 from "../../images/gallery/trail-of-lights.jpg"
-import gallery6 from "../../images/gallery/skiing.jpg"
-import gallery7 from "../../images/gallery/champagne.jpg"
-import gallery8 from "../../images/gallery/williams-wedding.jpg"
-import gallery9 from "../../images/gallery/deborahs.jpg"
-import gallery10 from "../../images/gallery/acl.jpg"
-import gallery11 from "../../images/gallery/big-cedar.jpg"
-import gallery12 from "../../images/gallery/photo-van.jpg"
+import './style.css'
+
+import SectionTitle from '../SectionTitle'
 
 class Gallery extends Component {
     render() {
         return (
             <div id="gallery" className="gallery-section section-padding">
-                <SectionTitle section={"Our Gallery"} />
+                <SectionTitle section={'Our Gallery'} />
                 <SRLWrapper>
                     <div className="container">
                         <div className="row">

@@ -1,7 +1,8 @@
-import React from "react"
-import CountDown from "reactjs-countdown"
-import {WEDDING_DATE_TIME} from "../../util/constants"
-import "./style.css"
+import React from 'react'
+import CountDown from 'reactjs-countdown'
+import { WEDDING_DATE_TIME } from 'utils'
+
+import './style.css'
 
 const CountDownWidget = () => {
     return (

@@ -1,10 +1,11 @@
-import React, {Component} from "react"
-import Slider from "react-slick"
-import {Animated} from "react-animated-css"
-import {WEDDING_DATE} from "../../util/constants"
-import "slick-carousel/slick/slick.css"
-import "slick-carousel/slick/slick-theme.css"
-import "./style.css"
+import React, { Component } from 'react'
+import { Animated } from 'react-animated-css'
+import Slider from 'react-slick'
+import { WEDDING_DATE } from 'utils/constants'
+
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+import './style.css'
 
 class SimpleSlider extends Component {
     render() {

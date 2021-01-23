@@ -1,6 +1,7 @@
-import React from "react"
-import {NAME_SHORT} from "../../util/constants"
-import "./style.css"
+import React from 'react'
+import { NAME_SHORT } from 'utils'
+
+import './style.css'
 
 const Footer = () => {
     return (

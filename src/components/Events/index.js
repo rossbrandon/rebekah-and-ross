@@ -1,15 +1,16 @@
-import React from "react"
-import SectionTitle from "../SectionTitle"
-import {WEDDING_DATE_FULL, PARTY_DATE_FULL} from "../../util/constants"
-import event1 from "../../images/events/anthony-chapel.jpg"
-import event2 from "../../images/events/springdale-station-inside.jpg"
+import event1 from 'images/events/anthony-chapel.jpg'
+import event2 from 'images/events/springdale-station-inside.jpg'
+import React from 'react'
+import { PARTY_DATE_FULL, WEDDING_DATE_FULL } from 'utils/constants'
 
-import "./style.css"
+import './style.css'
+
+import SectionTitle from '../SectionTitle'
 
 const Events = () => {
     return (
         <div id="events" className="event-section section-padding">
-            <SectionTitle section={"When & Where"} />
+            <SectionTitle section={'When & Where'} />
             <div className="container">
                 <div className="row">
                     <div className="col-12">

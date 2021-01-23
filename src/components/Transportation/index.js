@@ -1,13 +1,15 @@
-import React from "react"
-import gta1 from "../../images/gta/img-1.jpg"
-import gta2 from "../../images/gta/img-2.jpg"
-import SectionTitle from "../SectionTitle"
-import "./style.css"
+import gta1 from 'images/gta/img-1.jpg'
+import gta2 from 'images/gta/img-2.jpg'
+import React from 'react'
+
+import './style.css'
+
+import SectionTitle from '../SectionTitle'
 
 const Transportation = () => {
     return (
         <div className="gta-area section-padding">
-            <SectionTitle section={"Getting There"} />
+            <SectionTitle section={'Getting There'} />
             <div className="container">
                 <div className="row">
                     <div className="col col-lg-8 offset-lg-2 col-md-8 offset-md-2">

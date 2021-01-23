@@ -1,17 +1,18 @@
-import React from "react"
-import SectionTitle from "../SectionTitle"
-import maidOfHonor from "../../images/people/grace.jpg"
-import maidOfHonorFunny from "../../images/people/grace-funny.jpg"
-import bestMan from "../../images/people/carter.jpg"
-import bestManFunny from "../../images/people/carter-funny.jpg"
+import bestMan from 'images/people/carter.jpg'
+import bestManFunny from 'images/people/carter-funny.jpg'
+import maidOfHonor from 'images/people/grace.jpg'
+import maidOfHonorFunny from 'images/people/grace-funny.jpg'
+import React from 'react'
 
-import "./style.css"
+import './style.css'
+
+import SectionTitle from '../SectionTitle'
 
 const WeddingParty = () => {
     return (
         <section id="wedding-party">
             <div className="wedding-party-area section-padding">
-                <SectionTitle section={"Bridesmaids & Groomsmen"} />
+                <SectionTitle section={'Bridesmaids & Groomsmen'} />
                 <div className="container">
                     <div className="wedding-party-area-menu">
                         <div className="Groomsman-wrap">

@@ -130,7 +130,7 @@
     display: inline-block;
     margin-bottom: 0;
     font-size: 40px;
-    font-family: "Great Vibes", cursive;
+    font-family: 'Great Vibes', cursive;
 }
 
 @media (max-width: 992px) {
