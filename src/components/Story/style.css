@@ -110,6 +110,24 @@
     .story-text {
         padding: 30px;
     }
+    #how-we-met-pic {
+        order: 1;
+    }
+    #how-we-met {
+        order: 2;
+    }
+    #our-second-first-date-pic {
+        order: 3;
+    }
+    #our-second-first-date {
+        order: 4;
+    }
+    #our-engagement-pic {
+        order: 5;
+    }
+    #our-engagement {
+        order: 6;
+    }
 }
 
 @media (max-width: 767px) {

@@ -15,12 +15,15 @@ const Story = () => {
                 <div className="story-wrap">
                     <div className="row">
                         <div className="col-lg-6 col-md-12 col-12 pl-n">
-                            <div className="story-img">
+                            <div id="how-we-met-pic" className="story-img">
                                 <img src={story1} alt="" />
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 col-12">
-                            <div className="story-text left-align-text">
+                            <div
+                                id="how-we-met"
+                                className="story-text left-align-text"
+                            >
                                 <h3>How We Met</h3>
                                 <span className="date">February 27, 2016</span>
                                 <p>
@@ -41,7 +44,10 @@ const Story = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-12 col-12">
+                        <div
+                            id="our-second-first-date"
+                            className="col-lg-6 col-md-12 col-12 pr-n"
+                        >
                             <div className="story-text right-align-text">
                                 <h3>Our Second First Date</h3>
                                 <span className="date">June 3, 2016</span>
@@ -63,17 +69,26 @@ const Story = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-12 col-12 pr-n">
+                        <div
+                            id="our-second-first-date-pic"
+                            className="col-lg-6 col-md-12 col-12"
+                        >
                             <div className="story-img">
                                 <img src={story2} alt="" />
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-12 col-12 pl-n">
+                        <div
+                            id="our-engagement-pic"
+                            className="col-lg-6 col-md-12 col-12 pl-n"
+                        >
                             <div className="story-img">
                                 <img src={story3} alt="" />
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-12 col-12">
+                        <div
+                            id="our-engagement"
+                            className="col-lg-6 col-md-12 col-12"
+                        >
                             <div className="story-text left-align-text">
                                 <h3>Our Engagement</h3>
                                 <span className="date">March 5, 2020</span>
