@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "78f10143143d210891594d0de0bc175e",
+    "revision": "bc6578b881834d13f50eb97cb36dbb15",
     "url": "/index.html"
   },
   {
-    "revision": "d104e1c4a24fe1ebca70",
+    "revision": "12e37a82044e20376b3a",
     "url": "/static/css/2.cd625283.chunk.css"
   },
   {
-    "revision": "61ebe879f86e29f7972f",
+    "revision": "c004e45c95789d7ebac0",
     "url": "/static/css/main.119b926d.chunk.css"
   },
   {
-    "revision": "d104e1c4a24fe1ebca70",
-    "url": "/static/js/2.3e87c059.chunk.js"
+    "revision": "12e37a82044e20376b3a",
+    "url": "/static/js/2.07d33cd6.chunk.js"
   },
   {
-    "revision": "61ebe879f86e29f7972f",
-    "url": "/static/js/main.c4f8c255.chunk.js"
+    "revision": "c004e45c95789d7ebac0",
+    "url": "/static/js/main.499c1abf.chunk.js"
   },
   {
     "revision": "3b491762959188f4dbca",
@@ -118,6 +118,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "47f87d8609ab12929635798ffc45f6f9",
     "url": "/static/media/logo-bedbathandbeyond.47f87d86.png"
+  },
+  {
+    "revision": "d7a1cd37839084fb4b1671d73717181c",
+    "url": "/static/media/logo-bloomingdales.d7a1cd37.png"
   },
   {
     "revision": "9ddaea91ae3866f68b923bb64cc7a4ea",
