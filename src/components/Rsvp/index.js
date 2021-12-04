@@ -16,7 +16,7 @@ class Rsvp extends Component {
         showDeclineButton: true,
         acceptButtonText: "I'll be there!",
         acceptButtonClass: 'submit accept',
-        declineButtonText: "I'm sad to miss it!",
+        declineButtonText: "I'm sad to miss it...",
         declineButtonClass: 'submit decline',
     }
 
