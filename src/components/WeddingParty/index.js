@@ -24,10 +24,12 @@ const WeddingParty = () => {
                                                 src={maidOfHonor}
                                                 alt="Matron of Honor"
                                                 onMouseOver={e =>
-                                                    (e.currentTarget.src = maidOfHonorFunny)
+                                                    (e.currentTarget.src =
+                                                        maidOfHonorFunny)
                                                 }
                                                 onMouseOut={e =>
-                                                    (e.currentTarget.src = maidOfHonor)
+                                                    (e.currentTarget.src =
+                                                        maidOfHonor)
                                                 }
                                             />
                                         </div>
@@ -69,10 +71,12 @@ const WeddingParty = () => {
                                                 src={bestMan}
                                                 alt="Best Man"
                                                 onMouseOver={e =>
-                                                    (e.currentTarget.src = bestManFunny)
+                                                    (e.currentTarget.src =
+                                                        bestManFunny)
                                                 }
                                                 onMouseOut={e =>
-                                                    (e.currentTarget.src = bestMan)
+                                                    (e.currentTarget.src =
+                                                        bestMan)
                                                 }
                                             />
                                         </div>

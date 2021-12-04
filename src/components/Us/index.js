@@ -23,7 +23,8 @@ const Us = () => {
                                             src={bride}
                                             alt="Bride Rebekah Pool"
                                             onMouseOver={e =>
-                                                (e.currentTarget.src = brideFunny)
+                                                (e.currentTarget.src =
+                                                    brideFunny)
                                             }
                                             onMouseOut={e =>
                                                 (e.currentTarget.src = bride)
@@ -45,7 +46,8 @@ const Us = () => {
                                             src={groom}
                                             alt="Groom Ross Brandon"
                                             onMouseOver={e =>
-                                                (e.currentTarget.src = groomFunny)
+                                                (e.currentTarget.src =
+                                                    groomFunny)
                                             }
                                             onMouseOut={e =>
                                                 (e.currentTarget.src = groom)
