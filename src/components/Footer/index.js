@@ -1,5 +1,4 @@
 import React from 'react'
-import { NAME_SHORT } from 'utils'
 
 import './style.css'
 
