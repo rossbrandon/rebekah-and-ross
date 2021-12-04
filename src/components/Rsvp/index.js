@@ -52,8 +52,8 @@ class Rsvp extends Component {
         let acceptButtonText
 
         if (
-            value == 'We have you on the list!' ||
-            value ==
+            value === 'We have you on the list!' ||
+            value ===
                 "You're already on the list!! Our bouncers won't let us put you any higher"
         ) {
             acceptButtonText =
@@ -118,8 +118,8 @@ class Rsvp extends Component {
         let declineButtonText
 
         if (
-            value == 'We will miss you!' ||
-            value ==
+            value === 'We will miss you!' ||
+            value ===
                 "We have you as a 'No' Refesh the page if you wish to say 'Yes'!"
         ) {
             declineButtonText =
