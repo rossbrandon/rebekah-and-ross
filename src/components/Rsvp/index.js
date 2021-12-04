@@ -48,11 +48,22 @@ class Rsvp extends Component {
         return hasError
     }
 
-    acceptRsvp = e => {
-        e.preventDefault()
+    acceptRsvp = value => {
+        let acceptButtonText
+
+        if (
+            value == 'We have you on the list!' ||
+            value ==
+                "You're already on the list!! Our bouncers won't let us put you any higher"
+        ) {
+            acceptButtonText =
+                "You're already on the list!! Our bouncers won't let us put you any higher"
+            this.setState({ acceptButtonText })
+            return
+        }
 
         const hasError = this.validateForm()
-        let acceptButtonText = 'Adding you to VIP...'
+        acceptButtonText = 'Adding you to VIP...'
         let acceptButtonClass
 
         if (!hasError) {
@@ -103,11 +114,22 @@ class Rsvp extends Component {
         }
     }
 
-    rejectRsvp = e => {
-        e.preventDefault()
+    declineRsvp = value => {
+        let declineButtonText
+
+        if (
+            value == 'We will miss you!' ||
+            value ==
+                "We have you as a 'No' Refesh the page if you wish to say 'Yes'!"
+        ) {
+            declineButtonText =
+                "We have you as a 'No' Refesh the page if you wish to say 'Yes'!"
+            this.setState({ declineButtonText })
+            return
+        }
 
         const hasError = this.validateForm()
-        let declineButtonText = 'Saving...'
+        declineButtonText = 'Saving...'
         let declineButtonClass
 
         if (!hasError) {
@@ -243,7 +265,12 @@ class Rsvp extends Component {
                                                 <button
                                                     id="submit"
                                                     type="button"
-                                                    onClick={this.rejectRsvp}
+                                                    value={declineButtonText}
+                                                    onClick={() =>
+                                                        this.declineRsvp(
+                                                            declineButtonText,
+                                                        )
+                                                    }
                                                     className={
                                                         declineButtonClass
                                                     }
@@ -255,7 +282,12 @@ class Rsvp extends Component {
                                                 <button
                                                     id="submit"
                                                     type="button"
-                                                    onClick={this.acceptRsvp}
+                                                    value={acceptButtonText}
+                                                    onClick={() =>
+                                                        this.acceptRsvp(
+                                                            acceptButtonText,
+                                                        )
+                                                    }
                                                     className={
                                                         acceptButtonClass
                                                     }
