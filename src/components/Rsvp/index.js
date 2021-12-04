@@ -120,10 +120,10 @@ class Rsvp extends Component {
         if (
             value === 'We will miss you!' ||
             value ===
-                "We have you as a 'No' Refesh the page if you wish to say 'Yes'!"
+                "We have you as a 'No'. Refesh the page if you wish to say 'Yes'!"
         ) {
             declineButtonText =
-                "We have you as a 'No' Refesh the page if you wish to say 'Yes'!"
+                "We have you as a 'No'. Refesh the page if you wish to say 'Yes'!"
             this.setState({ declineButtonText })
             return
         }

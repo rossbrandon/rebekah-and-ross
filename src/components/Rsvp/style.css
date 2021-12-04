@@ -128,3 +128,7 @@ option {
     color: #fff;
     width: 100% !important;
 }
+
+.btn-danger {
+    width: 100% !important;
+}
