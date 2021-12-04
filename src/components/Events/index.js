@@ -87,8 +87,8 @@ const Events = () => {
                                                         one-year-anniversary-celebration-bash
                                                         at our original wedding
                                                         venue, Springdale
-                                                        Station on weekend of
-                                                        our original wedding
+                                                        Station on the weekend
+                                                        of our original wedding
                                                         date!
                                                     </p>
                                                     <div className="btn">
