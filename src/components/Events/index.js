@@ -1,6 +1,7 @@
 import event1 from 'images/events/anthony-chapel.jpg'
 import event2 from 'images/events/springdale-station-inside.jpg'
 import React from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { PARTY_DATE_FULL, WEDDING_DATE_FULL } from 'utils/constants'
 
 import './style.css'
@@ -107,6 +108,11 @@ const Events = () => {
                                                         >
                                                             Location
                                                         </a>
+                                                    </div>
+                                                    <div className="btn">
+                                                        <AnchorLink href="#rsvp">
+                                                            RSVP
+                                                        </AnchorLink>
                                                     </div>
                                                 </div>
                                             </div>

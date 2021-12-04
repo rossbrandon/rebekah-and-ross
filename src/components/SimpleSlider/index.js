@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Animated } from 'react-animated-css'
 import Slider from 'react-slick'
 import { WEDDING_DATE } from 'utils/constants'
@@ -25,10 +26,15 @@ class SimpleSlider extends Component {
                     <div className="container">
                         <div className="slide-content">
                             <div className="slide-title">
-                                <h2>We're Getting Married!</h2>
+                                <h2>We Got Married!</h2>
                             </div>
                             <div className="slide-text">
                                 <p>{WEDDING_DATE}</p>
+                            </div>
+                            <div className="btn">
+                                <AnchorLink href="#rsvp" className="party-rsvp">
+                                    Party RSVP
+                                </AnchorLink>
                             </div>
                             <Animated>
                                 <div className="animated-circle"></div>
@@ -41,10 +47,13 @@ class SimpleSlider extends Component {
                         <div className="container">
                             <div className="slide-content">
                                 <div className="slide-title">
-                                    <h2>We're Getting Married!</h2>
+                                    <h2>We Got Married!</h2>
                                 </div>
                                 <div className="slide-text">
                                     <p>{WEDDING_DATE}</p>
+                                </div>
+                                <div className="btn">
+                                    <AnchorLink href="#rsvp">RSVP</AnchorLink>
                                 </div>
                                 <Animated>
                                     <div className="animated-circle"></div>

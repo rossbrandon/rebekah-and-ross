@@ -27,7 +27,7 @@
 }
 
 .item1 {
-    background: url(../../images/slider/engagement-2.jpg) no-repeat center
+    background: url(../../images/slider/wedding-garden.jpg) no-repeat center
         center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -41,7 +41,8 @@
 }
 
 .item2 {
-    background: url(../../images/slider/hamilton.jpg) no-repeat center center;
+    background: url(../../images/slider/wedding-bridge.jpg) no-repeat center
+        center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -224,4 +225,8 @@
         -webkit-transform: scale3d(1, 1, 1);
         transform: scale3d(1, 1, 1);
     }
+}
+
+.party-rsvp {
+    margin-top: 25px;
 }

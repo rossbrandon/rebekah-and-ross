@@ -1,6 +1,6 @@
 import React from 'react'
 import CountDown from 'reactjs-countdown'
-import { WEDDING_DATE_TIME } from 'utils'
+import { PARTY_DATE_TIME } from 'utils'
 
 import './style.css'
 
@@ -11,7 +11,7 @@ const CountDownWidget = () => {
                 <div className="row">
                     <div className="col-12">
                         <div className="countdownwrap">
-                            <CountDown deadline={WEDDING_DATE_TIME} />
+                            <CountDown deadline={PARTY_DATE_TIME} />
                         </div>
                     </div>
                 </div>
