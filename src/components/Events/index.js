@@ -75,7 +75,7 @@ const Events = () => {
                                                         {PARTY_DATE_FULL}
                                                     </span>
                                                     <span>
-                                                        Springdate Station
+                                                        Springdale Station
                                                         <br />
                                                         979 Springdale Road #160
                                                         <br />
